@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Am_I_Eligible_Scenario5_Regression&apos;" deleteContents="false" description="Delete resource &apos;Am_I_Eligible_Scenario5_Regression&apos;" element1="/Am_I_Eligible_Scenario5_Regression" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1461785646349"/>
+</session>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EDWOSB_Other_Real_State_US649_FM_Regression" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression" time="249.818">
+    <testcase name="EDWOSB_Real_State_Other_MainTest" classname="regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression" time="249.818"/>
+  </testsuite>
+</testrun>

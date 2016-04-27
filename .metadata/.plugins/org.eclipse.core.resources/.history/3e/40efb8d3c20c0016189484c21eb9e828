@@ -1,0 +1,32 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages</title>
+</head>
+<body>
+<pre>User sees the link on the landing page for user to create an account, PASS
+The submit button is made active to stimulate required filed when left emty by usser, PASS
+user see error message saying '7 errors prohibited user to submit Registration'
+Error Status
+First name is required.
+Last name is required.
+Email is required.
+Passphrase is required.
+Passphrase confirmation is required.
+'I accept' check box must be checked.
+'I am not a robot' check box must be checked.
+Passphrase strength - Weak
+Password type is Weak, Weak password validated, Pass
+Passphrase strength - Better
+Password type is strong, Weak password validated, Pass
+Passphrase strength - Strong
+user sees the Privacy Act as stated bellow, Pass
+I.This is a Federal computer system and is the property of the United States Government. It is for authorized use only. Users (authorized or unauthorized) have no explicit or implicit expectation of privacy in anything viewed, created, downloaded, or stored on this system, including email, internet, and intranet use. Any or all uses of this system (including all peripheral devices and output media) and all files on this system may be intercepted, monitored, read, captured, recorded, disclosed, copied, audited, and/or inspected by authorized SBA personnel, the Office of Inspector General (OIG), and/or other law enforcement personnel, as well as authorized officials of other agencies. Access or use of this computer by any person, whether authorized or unauthorized, constitutes consent to such interception, monitoring, reading, capturing, recording, disclosure, copying, auditing, and/or inspection at the discretion of authorized SBA personnel, law enforcement personnel (including OIG), and/or authorized officials other agencies. Unauthorized use of this system is prohibited and may constitute a violation of 18 U.S.C 1030 or other Federal laws and regulations may result in criminal, civil, and/or administrative action. By continuing to use this system, you indicate your awareness of, and consent to, these terms and conditions and acknowledge that there is no reasonable expectation of privacy in the access or use of this computer system.
+II. Privacy Act Routine Uses (5 USC &amp; 522a as amended)
+Disclosure (or providing) of information requested in forms contained within this system or provided via email contact is "Voluntary". By providing the information, the individual assumes all responsibility to ensure the information provided is correct and valid and is so maintained.
+III. Disclosure
+Disclosure: Collected information on individuals may be shared and protected as authorized by law. Except for such authorized activities, we do not share any information we receive with any outside parties.
+Re-Captcha box Present, Pass.
+</pre>
+</body>
+</html>

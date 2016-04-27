@@ -1,0 +1,30 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from Edith_Password2_Regression_Test</title>
+</head>
+<body>
+<pre>First attempt to log-in with current password was successful, PASS
+Edith Password link is present and active, Pass
+User is being navigated to the change password page, PASS
+Edit Passphrase
+Existing passphrase
+(we need your current passphrase to confirm your changes)
+New passphrase
+Show my typing
+Passphrase strength - Weak
+Your passphrase must be strong to continue.
+New passphrase confirmation
+Back to My ProfileUpdate
+Passphrase
+Secure your account by creating a strong passphrase. The passphrase meter will indicate if your passphrase is strong enough. Your passphrase must be &ldquo;strong&rdquo; in order to continue the registration. Rollover the help icon for examples of a strong passphrase. You can create a strong passphrase by following these guidelines:
+Use 4 random but memorable words
+Don&rsquo;t form a sentence
+Don't use previous passphrases
+Special characters and numbers are helpful but not necessary
+Don&rsquo;t use personally relevant words that are publicly available (your real name, company name, industry, email/username etc...)
+Password strength - Strong
+User change password Successfully
+</pre>
+</body>
+</html>

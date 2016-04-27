@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" skipped="0" tests="1" time="183.686" timestamp="2016-04-27T21:04:01">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes" />
+    <property name="env.COMPUTERNAME" value="TEST-PC" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_91-b14" />
+    <property name="env.HOMEPATH" value="\Users\Derec Nguni" />
+    <property name="user.name" value="Derec Nguni" />
+    <property name="user.language" value="en" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_91\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="SBAONE-REGRESSION-TEST" />
+    <property name="java.version" value="1.8.0_91" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.MpConfig_ProductPath" value="C:\Program Files\Windows Defender" />
+    <property name="env.TEMP" value="C:\Users\DERECN~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_91\lib\endorsed" />
+    <property name="env.VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_91" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Derec Nguni\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.91-b14" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Derec Nguni" />
+    <property name="env.MpConfig_ProductUserAppDataPath" value="C:\Users\Derec Nguni\AppData\Local\Microsoft\Windows Defender" />
+    <property name="ant.library.dir" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\DERECN~1\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.file.SBAONE-REGRESSION-TEST" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\build.xml" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+    <property name="user.home" value="C:\Users\Derec Nguni" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\Derec Nguni\Downloads\eclipse-committers-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin;C:\apache-maven-3.3.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Amazon\AWSCLI\;c:\Program Files\Git\bin;C:\Program Files (x86)\GitExtensions\;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.MpConfig_ReportingGUID" value="48557217-9AB5-44E1-A897-A4B55D54487D" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher4899257865566800274.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit7006434970563546439.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\TEST-PC" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.io.tmpdir" value="C:\Users\DERECN~1\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="3d04" />
+    <property name="eclipse.pdebuild.home" value="/C:/Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.MpConfig_ProductAppDataPath" value="C:\ProgramData\Microsoft\Windows Defender" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_91\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="ant.file.type.SBAONE-REGRESSION-TEST" value="file" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Derec Nguni\AppData\Local" />
+    <property name="user.dir" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST" />
+    <property name="env.MAVEN_HOME" value="C:\apache-maven-3.3.3" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\Derec Nguni\Downloads\eclipse-committers-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin;C:\apache-maven-3.3.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Amazon\AWSCLI\;c:\Program Files\Git\bin;C:\Program Files (x86)\GitExtensions\;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse;" />
+    <property name="basedir" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="env.USERNAME" value="Derec Nguni" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="Test-PC" />
+    <property name="env.MpConfig_ProductCodeName" value="AntiSpyware" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,Am_I_Eligible_Scenario11_Regression,Regression_Test_Iteration11_A_B_C,Am_I_Eligible_Csenario2_Regression,Am_I_Eligible_Scenario10_Regression,Am_I_Eligible_Scenario3_Regression,Am_I_Eligible_Scenario4_Regression,Am_I_Eligible_Scenario5_Regression,Am_I_Eligible_Scenario6_Regression,Am_I_Eligible_Scenario7_Regression,Am_I_Eligible_TC1_Scenario8_WOSB_Regression_Success,Am_I_Eligibles_Scenario_1_Possitive_Regression,Analyst_search_View_vendors_Record_Regression,Edith_Password_Regression_Test,Edith_Password2_Regression_Test,EDWASB_Prepare_for_Self_Certification_Regression,Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Regression,Login_Regression_Test_setup,Rgression_Test_for_Iteration_10_11,US402_EDWOSB_Self_Certifies_Questionnaire_Regression,US752_IAM_Configure_SBA_Analyst_Roles_Regression,US788_Collapse_Navigation_Pane_Corp_EDWOSB,US788_Collapse_Navigation_Pane_LLC_WOSB,US799_New_landing_dashboard_and_login_page_styles_Regression,US859_Vendor_Admin_User_Profile,US855_Improve_Text_Work_In_Progress_From_All_pages,US861_SBA_Analyst_View_More_Info_About_Vendor_Regression,US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor,US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase,US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages,US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression,EDWOSB_Other_Real_State_US649_FM_Regression,EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620,junitreport" />
+    <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" name="EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_MainTest" time="183.63" />
+  <system-out><![CDATA[BUSINESS PROFILE Pass
+The 8(a) question and select No and continue.
+The Third Party Certification question have been answered
+The Non-qualification question have been answered
+The LLC questions have been answered
+The Citizenship & Ownership questions have been answered
+The Businesses & Trusts questions have been answered
+The Operations & Management questions have been answered
+The Expertise & Employment questions have been answered
+The Highest Officer & Control  questions have been answered
+The SBA Exam & Daily Operations questions have been answered
+The Net Worth questions have been answered
+The Adjusted Gross Income questions have been answered
+The Fair Market Value questions have been answered
+The Assets questions have been answered
+User is navigated to the Correct section, (Financial Data) - Pass
+The personal information for 1st Person
+The personal information Before Save:
+The page to Create and Add new Record is Present, PASS
+First_Name = Sabra
+Last_Name = Mabella 
+SSN= 495-54-3209
+Address_P= 3432 Berugard ST
+State= Virginia
+Country= USA
+City= Alexandria
+Zip= 22311
+Home_Phone= 703-622-5854
+Business_Phone= 703-765-4969
+Email_P = Sabra.Mabella@gmail.com
+User is navigated to the Correct section, (Cash On Hand) - Pass
+Cash On Hand Data Before Save:
+AS_of_DATE= 02/01/2016
+Cash_On_Hand= 10000
+Saving_Account= 50000
+Checking_Account= 30000
+User is navigated to the Correct section, (Other Sources Of Income) - Pass
+Other Sources Of Income for Data:
+Salary= 60000
+Other_Income= 3000
+Business_Equity= 5700
+Equity_in_other_firm= 20000
+Test Start here Notes Receivable Section
+The Notes Receivable page coming, pass
+Name_Of_Debtor= Alexander
+Address_Of_Debtor= Alexander 2341 DR
+Original_Balance= 1200
+Current_Balance= 500
+Payment_Amount= 150
+Secured_or_Endorsed= 350
+The page Retirement Accounts, pass
+Step 11 - Create new entry window opens - Pass
+The page Retirement Accounts Data Before save:
+rothira_total_value= 10000.46
+rothira_initial_contribution= 3500.82
+rothira_investment_company=Fidelity
+Create new entry window opens for the Other Retirement
+ira_total_value= 2200.30
+ira_initial_contribution= 2100.48
+ira_investment_company= Vanguard
+User is navigated to the Correct section, (Life Insurance) - Pass
+The Create new entry coming, pass
+The life insurance policy Data Before Save:
+Insurance_Company = GEICO
+Cash_Surrender_Value = 200
+Face_Amount=  500
+Beneficiaries = Micale
+Loans_Against_Life_Insurance= 1500
+ Verify that user is navigated to the Correct section(Stocks & Bonds)
+  User is navigated to the Correct section, (Stocks & Bonds) - Pass
+The Stocks & Bonds Data before Save:
+securities_name= Alphabet Inc
+total_value= 3472.55
+num_of_shares= 5
+cost= 694.72
+market_value= 694.98
+date=02/24/2016
+interest_dividends= 0
+User is navigated to the Correct section, (Real Estate - Primary Residence) - Pass
+Tried to continue without answering the two question - Pass
+Tried to continue without answering the Do you own your primary residence? question - Pass
+No was selected and the Continue button was clicked
+Real Estate - Other page is displayed - Pass
+User is returned to the correct section (Real Estate - Primary Residence) - Pass
+Locate the Real Estate - Primary Residence questions, select Yes to the first question, Without answer any other question, and click the Continue button.
+Error message displayed for What is the address of your primary residence? - Pass
+Error message displayed for Is your primary residence jointly owned? - Pass
+Error message displayed for Is your name on the mortgage? - Pass
+Error message displayed for What is the current value of your primary residence? - Pass
+Error message displayed for What is the mortgage balance on your primary residence? - Pass
+Error message displayed for Is there a lien, 2nd mortgage or Home Equity Line of Credit on your primary residence? - Pass
+Error message displayed for Do you receive income from your primary residence (rent, etc.)? - Pass
+Do you own your primary residence? Select 'Yes'
+	
+Primary Residence Details:
+
+What is the address of your primary residence?
+Is your primary residence jointly owned? Select 'Yes'
+What percentage of ownership do you have in your primary residence? '50%'
+What percentage of the mortgage are you responsible for in your primary residence? '50%
+Is your name on the mortgage? Select 'Yes'
+What is the current value of your primary residence? '10000'
+What is the mortgage balance on your primary residence? '10000'
+Is there a lien, 2nd mortgage or Home Equity Line of Credit on your primary residence? Select 'Yes'
+What is the current balance of the lean(s)?
+Do you receive income from your primary residence (rent, etc.)? Select 'Yes'
+What is the income YOU receive from your primary residence (calculated annually)?
+User is being navigatd to the financial information(413), Real Estate - Other page, PASS
+The primary residence address is being saved, Pass
+What percentage of ownership do you have in your primary residence? is being saved, Pass
+What percentage of the mortgage are you responsible for in your primary residence? is being saved, Pass
+The current value of your primary residence is being saved, Pass
+The mortgage balance on your primary residence is being saved, Pass
+What is the current balance of the lien(s)? is being saved, Pass
+What is the income YOU receive from your primary residence (calculated annually)? is being saved, Pass
+Do you own your primary residence?
+Yes
+No
+Primary Residence Details
+What is the address of your primary residence?
+ Is your primary residence jointly owned?
+Yes
+No
+What percentage of ownership do you have in your primary residence?
+  %
+What percentage of the mortgage are you responsible for in your primary residence?
+  %
+Is your name on the mortgage?
+Yes
+No
+What is the current value of your primary residence?
+$
+What is the mortgage balance on your primary residence?
+$
+Is there a lien, 2nd mortgage or Home Equity Line of Credit on your primary residence?
+Yes
+No
+What is the current balance of the lien(s)?
+$
+Do you receive income from your primary residence (rent, etc.)?
+Yes
+No
+What is the income YOU receive from your primary residence (calculated annually)?
+$
+Success: 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

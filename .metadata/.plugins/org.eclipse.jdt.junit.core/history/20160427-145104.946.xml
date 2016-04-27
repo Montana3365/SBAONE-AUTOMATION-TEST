@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="regression_for_2_1_4_release.US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" time="102.645">
+    <testcase name="US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase_Maintest" classname="regression_for_2_1_4_release.US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" time="102.646"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US402_EDWOSB_Self_Certifies_Questionnaire_Regression" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="regression_for_2_1_4_release.US402_EDWOSB_Self_Certifies_Questionnaire_Regression" time="73.504">
+    <testcase name="EDWOSB_Self_Certifies_Questionnaire_Maintest" classname="regression_for_2_1_4_release.US402_EDWOSB_Self_Certifies_Questionnaire_Regression" time="73.504"/>
+  </testsuite>
+</testrun>

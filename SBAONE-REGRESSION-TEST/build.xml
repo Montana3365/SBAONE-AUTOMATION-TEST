@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="SBAONE-REGRESSION-TEST">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="SBAONE-REGRESSION-TEST.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="libs/poi-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-examples-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-excelant-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-ooxml-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-ooxml-schemas-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-scratchpad-3.11-20141221.jar"/>
+        <pathelement location="libs/selenium-java-2.53.0-srcs.jar"/>
+        <pathelement location="libs/selenium-java-2.53.0.jar"/>
+        <pathelement location="libs/selenium-server-standalone-2.53.0.jar"/>
+        <pathelement location="libs/junit-4.10.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="regression-test-scripts">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.xtend"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="regression-test-scripts"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Am_I_Eligible_Scenario11_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario11_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Regression_Test_Iteration11_A_B_C">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Regression_Test_Iteration11_A_B_C" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Csenario2_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Csenario2_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Scenario10_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario10_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Scenario3_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario3_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Scenario4_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario4_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Scenario5_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Scenario6_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario6_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_Scenario7_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_Scenario7_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligible_TC1_Scenario8_WOSB_Regression_Success">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligible_TC1_Scenario8_WOSB_Regression_Success" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligibles_Scenario_1_Possitive_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Am_I_Eligibles_Scenario_1_Possitive_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Analyst_search_View_vendors_Record_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Analyst_search_View_vendors_Record_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Edith_Password_Regression_Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Edith_Password_Regression_Test" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Edith_Password2_Regression_Test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Edith_Password2_Regression_Test" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="EDWASB_Prepare_for_Self_Certification_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.EDWASB_Prepare_for_Self_Certification_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Login_Regression_Test_setup">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Login_Regression_Test_setup" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Rgression_Test_for_Iteration_10_11">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.Rgression_Test_for_Iteration_10_11" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US402_EDWOSB_Self_Certifies_Questionnaire_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US402_EDWOSB_Self_Certifies_Questionnaire_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US752_IAM_Configure_SBA_Analyst_Roles_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US752_IAM_Configure_SBA_Analyst_Roles_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US788_Collapse_Navigation_Pane_Corp_EDWOSB">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US788_Collapse_Navigation_Pane_LLC_WOSB">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_LLC_WOSB" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US799_New_landing_dashboard_and_login_page_styles_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US799_New_landing_dashboard_and_login_page_styles_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US859_Vendor_Admin_User_Profile">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US855_Improve_Text_Work_In_Progress_From_All_pages">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US855_Improve_Text_Work_In_Progress_From_All_pages" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US861_SBA_Analyst_View_More_Info_About_Vendor_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="EDWOSB_Other_Real_State_US649_FM_Regression">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="regression_for_2_1_4_release.EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-REGRESSION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
