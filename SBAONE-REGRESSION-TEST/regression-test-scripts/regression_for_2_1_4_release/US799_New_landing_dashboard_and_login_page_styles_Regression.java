@@ -23,7 +23,7 @@ public class US799_New_landing_dashboard_and_login_page_styles_Regression {
 @Before
 public void US799_New_landing_dashboard_and_login_page_styles_MainSetup()throws Exception{
 	myurl="https://certify.qa.sba-one.net/";
-	Email="akanamontana@gmail.com";
+	Email="deric.nguni@telesishq.com";
 	PassW="Map Effect Applied Furniture 3365";
 	WrongPassW="just doing testing";
 		
@@ -211,28 +211,31 @@ Thread.sleep(3000);
 	System.out.println("Successful sign in alert message not present");
 	}
 //Locate the my profile button and click on it.
-	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu2']/li[3]/a")).click();
+	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu2']/li[2]/a")).click();
 	Thread.sleep(3000);
 //Verify that user is being directed to the right profile.
-	if(mydriver.getPageSource().contains("akana")){
+	if(mydriver.getPageSource().contains("Akana")){
 	System.out.println("User first name has been verify and maches, Pass.");
 	}
 	else{
 	System.out.println("User first name has been verify But Did not mache, failed.");
+	mydriver.quit();
 	}
 //Verify last name.
-	if(mydriver.getPageSource().contains("montana")){
+	if(mydriver.getPageSource().contains("Montana")){
 	System.out.println("User Last name has been verify and maches, Pass.");
 	}
 	else{
 	System.out.println("User Last name has been verify But Did not mache, failed.");
+	mydriver.quit();
 	}
 //Verify Email.
-	if(mydriver.getPageSource().contains("akanamontana@gmail.com")){
+	if(mydriver.getPageSource().contains("deric.nguni@telesishq.com")){
 	System.out.println("User email  has been verify and maches, Pass.");
 	}
 	else{
 	System.out.println("User email has been verify But Did not mache, failed.");
+	mydriver.quit();
 	}	
 	
 //Locate the Logout button and click on it to log out.
