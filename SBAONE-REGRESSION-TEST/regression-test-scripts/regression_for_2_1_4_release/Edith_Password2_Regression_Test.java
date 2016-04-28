@@ -189,7 +189,7 @@ else{
     Thread.sleep(4000);
 	
 //Locate the My Profile button on the left navigation and click on it.
-	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu2']/li[2]/a")).click();
+	mydriver.findElement(By.linkText("My Profile")).click();
 	Thread.sleep(4000);
 //Verify and click on the link Edith Password.
 	if(mydriver.getPageSource().contains("Edit Passphrase")){

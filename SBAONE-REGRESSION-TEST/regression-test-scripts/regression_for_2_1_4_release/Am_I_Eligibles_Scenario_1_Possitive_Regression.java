@@ -15,7 +15,7 @@ public class Am_I_Eligibles_Scenario_1_Possitive_Regression {
 	public WebDriver mydriver;
 	String myurl;
 	String Invalid_NAICS_Code;
-	String Valid_WASB_NAICS_Code;
+	String Valid_WOSB_NAICS_Code;
 	String Six_invalid_code;
 	String Scenario_five_code;
 		
@@ -23,7 +23,7 @@ public class Am_I_Eligibles_Scenario_1_Possitive_Regression {
 public void Am_i_Eligible_setup()throws Exception{
 myurl="http://certify.qa.sba-one.net/";
 Invalid_NAICS_Code="3233";
-Valid_WASB_NAICS_Code="562111";
+Valid_WOSB_NAICS_Code="236115";
 Six_invalid_code="162141";
 Scenario_five_code="12s$&A";
 
@@ -119,7 +119,7 @@ public void AM_I_Eligible_maintest()throws Exception{
 //Step 19. Clear out the incorrect NAICS Code and enter a valid code(6 Digit NAICS Code).
 	mydriver.findElement(By.xpath(".//*[@id='answers_3_value']")).clear();
 	Thread.sleep(2000);
-	mydriver.findElement(By.xpath(".//*[@id='answers_3_value']")).sendKeys(Valid_WASB_NAICS_Code);
+	mydriver.findElement(By.xpath(".//*[@id='answers_3_value']")).sendKeys(Valid_WOSB_NAICS_Code);
 //Step 20. Select NO for Question Four.
 	mydriver.findElement(By.xpath(".//*[@id='answers[4][value]']/label[2]")).click();
     Thread.sleep(4000);

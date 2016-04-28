@@ -81,7 +81,7 @@ public class Edith_Password_Regression_Test {
 		}
 		Thread.sleep(3000);
 	//Locate the My Profile button on the left navigation and click on it.
-		mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu2']/li[3]/a")).click();
+		mydriver.findElement(By.linkText("My Profile")).click();
 	//Verify and click on the link Edith Password.
 		if(mydriver.getPageSource().contains("Edit Passphrase")){
 			mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[2]/div/div/a")).click();
