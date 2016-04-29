@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB" skipped="0" tests="1" time="299.804" timestamp="2016-04-28T12:29:26">
+<testsuite errors="1" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB" skipped="0" tests="1" time="36.252" timestamp="2016-04-29T13:55:00">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="env.UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP" />
     <property name="env.PROMPT" value="$P$G" />
     <property name="os.name" value="Windows 7" />
     <property name="env.FP_NO_HOST_CHECK" value="NO" />
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes" />
     <property name="env.COMPUTERNAME" value="TEST-PC" />
     <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
     <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
     <property name="sun.desktop" value="windows" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-    <property name="ant.home" value="C:\apache-ant-1.9.6" />
-    <property name="java.runtime.version" value="1.8.0_77-b03" />
+    <property name="ant.home" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_91-b14" />
     <property name="env.HOMEPATH" value="\Users\Derec Nguni" />
     <property name="user.name" value="Derec Nguni" />
     <property name="user.language" value="en" />
     <property name="env.windows_tracing_flags" value="3" />
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_91\bin" />
     <property name="ant.project.default-target" value="build" />
     <property name="ant.project.name" value="SBAONE-REGRESSION-TEST" />
-    <property name="java.version" value="1.8.0_77" />
+    <property name="java.version" value="1.8.0_91" />
     <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
     <property name="user.timezone" value="" />
-    <property name="env.MpConfig_ProductPath" value="C:\Program Files\Windows Defender" />
     <property name="env.TEMP" value="C:\Users\DERECN~1\AppData\Local\Temp" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_91\lib\endorsed" />
     <property name="env.VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
-    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_77\bin\java.exe" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="env.HOMEDRIVE" value="C:" />
     <property name="sun.jnu.encoding" value="Cp1252" />
@@ -42,7 +41,7 @@
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.class.version" value="52.0" />
     <property name="user.country" value="US" />
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_91" />
     <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
     <property name="env.APPDATA" value="C:\Users\Derec Nguni\AppData\Roaming" />
     <property name="env.PUBLIC" value="C:\Users\Public" />
@@ -54,178 +53,111 @@
     <property name="ant.file" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\build.xml" />
     <property name="os.version" value="6.1" />
     <property name="env.ProgramW6432" value="C:\Program Files" />
-    <property name="env._USE_CLASSPATH" value="no" />
-    <property name="env.=::" value="::\" />
     <property name="path.separator" value=";" />
-    <property name="java.vm.version" value="25.77-b03" />
-    <property name="user.variant" value="" />
+    <property name="java.vm.version" value="25.91-b14" />
     <property name="env.USERPROFILE" value="C:\Users\Derec Nguni" />
-    <property name="env.MpConfig_ProductUserAppDataPath" value="C:\Users\Derec Nguni\AppData\Local\Microsoft\Windows Defender" />
-    <property name="ant.library.dir" value="C:\apache-ant-1.9.6\lib" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
     <property name="junit.output.dir" value="junit" />
     <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="env.TMP" value="C:\Users\DERECN~1\AppData\Local\Temp" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-    <property name="sun.stdout.encoding" value="cp437" />
     <property name="ant.file.SBAONE-REGRESSION-TEST" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\build.xml" />
     <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
     <property name="user.home" value="C:\Users\Derec Nguni" />
     <property name="target" value="1.8" />
     <property name="env.ProgramData" value="C:\ProgramData" />
-    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
     <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\Derec Nguni\Downloads\eclipse-committers-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin;C:\apache-maven-3.3.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Amazon\AWSCLI\;c:\Program Files\Git\bin;C:\Program Files (x86)\GitExtensions\;." />
     <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\Derec Nguni\Downloads\eclipse-committers-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin;C:\apache-maven-3.3.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Amazon\AWSCLI\;c:\Program Files\Git\bin;C:\Program Files (x86)\GitExtensions\;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse;;." />
     <property name="java.vm.vendor" value="Oracle Corporation" />
-    <property name="env.MpConfig_ReportingGUID" value="48557217-9AB5-44E1-A897-A4B55D54487D" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\apache-ant-1.9.6\lib\ant-launcher.jar;C:\apache-ant-1.9.6\lib\ant.jar;C:\apache-ant-1.9.6\lib\ant-junit.jar;C:\apache-ant-1.9.6\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher3905153046014529001.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit8698966928305426266.properties" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher731010574801278175.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit6784257149126440478.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="ant.file.type" value="file" />
-    <property name="env.LOGONSERVER" value="\\TEST-PC" />
     <property name="env.windir" value="C:\Windows" />
-    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.LOGONSERVER" value="\\TEST-PC" />
     <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
     <property name="sun.os.patch.level" value="Service Pack 1" />
     <property name="sun.cpu.endian" value="little" />
     <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
     <property name="env.ProgramFiles" value="C:\Program Files" />
-    <property name="env.ANT_HOME" value="C:\apache-ant-1.9.6" />
-    <property name="java.io.tmpdir" value="C:\Users\DERECN~1\AppData\Local\Temp\" />
     <property name="env.PROCESSOR_REVISION" value="3d04" />
+    <property name="eclipse.pdebuild.home" value="/C:/Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+    <property name="java.io.tmpdir" value="C:\Users\DERECN~1\AppData\Local\Temp\" />
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
-    <property name="env.MpConfig_ProductAppDataPath" value="C:\ProgramData\Microsoft\Windows Defender" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="env.SystemRoot" value="C:\Windows" />
-    <property name="os.arch" value="amd64" />
-    <property name="env.ANT_CMD_LINE_ARGS" value=" build Am_I_Eligible_Scenario11_Regression Regression_Test_Iteration11_A_B_C Am_I_Eligible_Csenario2_Regression Am_I_Eligible_Csenario2_Regression Am_I_Eligible_Scenario10_Regression Am_I_Eligible_Scenario3_Regression Am_I_Eligible_Scenario4_Regression Am_I_Eligible_Scenario5_Regression Am_I_Eligible_Scenario6_Regression Am_I_Eligible_Scenario7_Regression Am_I_Eligible_TC1_Scenario8_WOSB_Regression_Success Am_I_Eligibles_Scenario_1_Possitive_Regression Analyst_search_View_vendors_Record_Regression Edith_Password_Regression_Test Edith_Password2_Regression_Test EDWASB_Prepare_for_Self_Certification_Regression Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Regression Login_Regression_Test_setup Rgression_Test_for_Iteration_10_11 US402_EDWOSB_Self_Certifies_Questionnaire_Regression US752_IAM_Configure_SBA_Analyst_Roles_Regression US788_Collapse_Navigation_Pane_Corp_EDWOSB US788_Collapse_Navigation_Pane_LLC_WOSB US799_New_landing_dashboard_and_login_page_styles_Regression US859_Vendor_Admin_User_Profile US855_Improve_Text_Work_In_Progress_From_All_pages US861_SBA_Analyst_View_More_Info_About_Vendor_Regression US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression EDWOSB_Other_Real_State_US649_FM_Regression EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620 junitreport" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_91\lib\ext;C:\Windows\Sun\Java\lib\ext" />
     <property name="ant.file.type.SBAONE-REGRESSION-TEST" value="file" />
-    <property name="user.dir" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST" />
     <property name="env.MAVEN_HOME" value="C:\apache-maven-3.3.3" />
     <property name="env.LOCALAPPDATA" value="C:\Users\Derec Nguni\AppData\Local" />
+    <property name="user.dir" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
-    <property name="env.Path" value="C:\Program Files\Sierra Wireless Inc\Skylight\;C:\Program Files\Sierra Wireless Inc\Common\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\Derec Nguni\Downloads\eclipse-committers-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin;C:\apache-maven-3.3.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Amazon\AWSCLI\;c:\Program Files\Git\bin;C:\Program Files (x86)\GitExtensions\" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Users\Derec Nguni\Downloads\eclipse-committers-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin;C:\apache-maven-3.3.3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Amazon\AWSCLI\;c:\Program Files\Git\bin;C:\Program Files (x86)\GitExtensions\;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse;" />
     <property name="basedir" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST" />
     <property name="ant.java.version" value="1.8" />
-    <property name="ant.core.lib" value="C:\apache-ant-1.9.6\lib\ant.jar" />
+    <property name="ant.core.lib" value="C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
     <property name="env.USERNAME" value="Derec Nguni" />
     <property name="env.SystemDrive" value="C:" />
     <property name="source" value="1.8" />
-    <property name="sun.stderr.encoding" value="cp437" />
     <property name="file.encoding" value="Cp1252" />
     <property name="env.USERDOMAIN" value="Test-PC" />
     <property name="java.specification.version" value="1.8" />
-    <property name="env.MpConfig_ProductCodeName" value="AntiSpyware" />
-    <property name="env.=C:" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST" />
-    <property name="ant.project.invoked-targets" value="build,Am_I_Eligible_Scenario11_Regression,Regression_Test_Iteration11_A_B_C,Am_I_Eligible_Csenario2_Regression,Am_I_Eligible_Csenario2_Regression,Am_I_Eligible_Scenario10_Regression,Am_I_Eligible_Scenario3_Regression,Am_I_Eligible_Scenario4_Regression,Am_I_Eligible_Scenario5_Regression,Am_I_Eligible_Scenario6_Regression,Am_I_Eligible_Scenario7_Regression,Am_I_Eligible_TC1_Scenario8_WOSB_Regression_Success,Am_I_Eligibles_Scenario_1_Possitive_Regression,Analyst_search_View_vendors_Record_Regression,Edith_Password_Regression_Test,Edith_Password2_Regression_Test,EDWASB_Prepare_for_Self_Certification_Regression,Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Regression,Login_Regression_Test_setup,Rgression_Test_for_Iteration_10_11,US402_EDWOSB_Self_Certifies_Questionnaire_Regression,US752_IAM_Configure_SBA_Analyst_Roles_Regression,US788_Collapse_Navigation_Pane_Corp_EDWOSB,US788_Collapse_Navigation_Pane_LLC_WOSB,US799_New_landing_dashboard_and_login_page_styles_Regression,US859_Vendor_Admin_User_Profile,US855_Improve_Text_Work_In_Progress_From_All_pages,US861_SBA_Analyst_View_More_Info_About_Vendor_Regression,US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor,US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase,US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages,US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression,EDWOSB_Other_Real_State_US649_FM_Regression,EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620,junitreport" />
+    <property name="ant.project.invoked-targets" value="build,Am_I_Eligible_Scenario11_Regression,Regression_Test_Iteration11_A_B_C,Am_I_Eligible_Csenario2_Regression,Am_I_Eligible_Scenario10_Regression,Am_I_Eligible_Scenario3_Regression,Am_I_Eligible_Scenario4_Regression,Am_I_Eligible_Scenario5_Regression,Am_I_Eligible_Scenario6_Regression,Am_I_Eligible_Scenario7_Regression,Am_I_Eligible_TC1_Scenario8_WOSB_Regression_Success,Am_I_Eligibles_Scenario_1_Possitive_Regression,Analyst_search_View_vendors_Record_Regression,Edith_Password_Regression_Test,Edith_Password2_Regression_Test,EDWASB_Prepare_for_Self_Certification_Regression,Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Regression,Login_Regression_Test_setup,Rgression_Test_for_Iteration_10_11,US402_EDWOSB_Self_Certifies_Questionnaire_Regression,US752_IAM_Configure_SBA_Analyst_Roles_Regression,US788_Collapse_Navigation_Pane_Corp_EDWOSB,US788_Collapse_Navigation_Pane_LLC_WOSB,US799_New_landing_dashboard_and_login_page_styles_Regression,US859_Vendor_Admin_User_Profile,US855_Improve_Text_Work_In_Progress_From_All_pages,US861_SBA_Analyst_View_More_Info_About_Vendor_Regression,US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor,US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase,US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages,US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression,EDWOSB_Other_Real_State_US649_FM_Regression,EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620,US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments,junitreport" />
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB" name="testSmokeLogin" time="299.744" />
+  <testcase classname="regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB" name="testSmokeLogin" time="36.196">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;new_sba_application&apos;]/input[3]&quot;}&#xa;Command duration or timeout: 51 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;Test-PC&apos;, ip: &apos;10.1.10.141&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 5f34fe1a-f67a-4b81-83b2-5fe699432aae&#xa;*** Element info: {Using=xpath, value=.//*[@id=&apos;new_sba_application&apos;]/input[3]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;new_sba_application&apos;]/input[3]&quot;}
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Test-PC&apos;, ip: &apos;10.1.10.141&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5f34fe1a-f67a-4b81-83b2-5fe699432aae
+*** Element info: {Using=xpath, value=.//*[@id=&apos;new_sba_application&apos;]/input[3]}
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at regression_for_2_1_4_release.US788_Collapse_Navigation_Pane_Corp_EDWOSB.testSmokeLogin(US788_Collapse_Navigation_Pane_Corp_EDWOSB.java:188)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;new_sba_application&apos;]/input[3]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Test-PC&apos;, ip: &apos;10.1.10.141&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous1874609248068866360webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous1874609248068866360webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous1874609248068866360webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous1874609248068866360webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous1874609248068866360webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+</error>
+  </testcase>
   <system-out><![CDATA[Step 1 - URL: http://certify.qa.sba-one.net/
   Login ID: jw_corp@mailinator.com
   Password: Map Effect Applied Furniture Help
   Click on Login Link and log in
 Certification in-progress on the dashboard was deleted
-  8(a) question have been answered
-  Third Party questions have been answered
-  Business questions have been answered
-  Operations questions have been answered
-Step 2 - EDWOSB application questions have been answered
-Step 3 - The page to Create and Add new Record
-  The page to Create and Add new Record is present - Pass
-Step 4 - Create a second owner record
-  The page to Create and Add new Record is present - Pass
-  Cash on Hand questions have been answered
-  Other Source of Income questions have been answered
-User is being navigated to the financial information(413), Notes Receivable page, PASS
-  Notes Receivable question has been answered
-User is navigated to the Correct section, (Retirement Accounts), PASS
-  Retirement Accounts application questions have been answered
-User is navigated to the Correct section, (Life Insurance), PASS
-  Life Insurance application questions have been answered
-Step 5 - Verify that user is navigated to the Correct section(Stocks & Bonds)
-  User is navigated to the Correct section, (Stocks & Bonds) - Pass
-Step 6 - Locate the Stocks & Bonds questions, select No
-Step 7 - Click No for the Real Estate Primary question	
-Step 8 - Click No for the Real Estate Other question
-Step 9 - Click No for the Personal Property questions
-Step 10 - Click No for the Notes Payable questions
-Step 11 - Click No for the Assessed Taxes questions
-Step 12 - Answer questions for the Adjusted Gross Income
-Step 13 - Click the Continue on the Personal Summary page
-Step 14 - Click the Continue on the Privacy Statement page
-Step 15 - Enter data for second owners Cash on Hand page
-Step 16 - Returned to the Dashboard
-Certification in-progress on the dashboard was clicked
-Step 17 - Verify that user is navigated to the Correct section(Other Sources Of Income)
-  User is navigated to the Correct section, (Other Sources Of Income) - Pass
-
---Expand sections--
-Step 18 - Click to expand the Prior Certification section
-Step 19 - Verify that the Prior Certification section was expanded
-  Prior Certification section expanded - Pass
-Step 20 - Click to expand the Third Party Certification section
-Step 21 - Verify that the Third Party Certification section was expanded
-  Third Party section expanded - Pass
-Step 22 - Click to expand the Business section
-Step 23 - Verify that the Business section was expanded
-  Business section is successfully expanded - Pass
-Step 24 - Click to expand the Corporation section
-Step 25 - Verify that the Corporation section was expanded
-  Corporation section expanded - Pass
-Step 26 - Click to expand the Operations section
-Step 27 - Verify that the Operations section was expanded
-  Operations section expanded - Pass
-Step 28 - Click to expand the EDWOSB Group section
-Step 29 - Verify that the EDWOSB Group section was expanded
-  EDWOSB Group section expanded - Pass
-
---Collapse sections--
-Step 30 - Click to collapse the Third Party Certification section
-Step 31 - Verify that the Third Party Certification section was collapsed
-  Third Party section collapsed - Pass
-Step 32 - Click to collapse the Prior Certification section
-Step 33 - Verify that the Prior Certification section was collapsed
-  Prior Certification section collapsed - Pass
-Step 34 - Click to collapse the Corporation section
-Step 35 - Verify that the Corporation section was collapsed
-  Corporation section collapsed - Pass
-Step 36 - Click to collapse the Business section
-Step 37 - Verify that the Business section was collapsed
-  Business section collapsed - Pass
-Step 38 - Click to collapse the Operations section
-Step 39 - Verify that the Operations section was collapsed
-  Operations section collapsed - Pass
-Step 40 - Click to collapse the EDWOSB Group section
-Step 41 - Verify that the EDWOSB Group section was collapsed
-  EDWOSB Group section collapsed - Pass
-Step 42 - Click to collapse the Financial section for James Thompson
-Step 43 - Verify that the Financial section for James Thompson was collapsed
-  James Thompson Financial section collapsed - Pass
-Step 44 - Click to collapse the Financial section for Peter Smith
-Step 45 - Verify that the Financial section for Peter Smith was collapsed
-  Peter Smith Financial section collapsed - Pass
-Step 46 - Click to expand the Financial section for James Thompson
-Step 47 - Verify that the Financial section for James Thompson was expanded
-  James Thompson Financial section expanded - Pass
-Step 48 - Click to expand the Financial section for Peter Smith
-Step 49 - Verify that the Financial section for Peter Smith was expanded
-  Peter Smith Financial section expanded - Pass
-Step 50 - Returned to the Dashboard
-Step 51 - Logout link clicked
-END OF TEST
-Error: org.junit.ComparisonFailure: expected:<[Third Party]> but was:<[]>org.junit.ComparisonFailure: expected:<[8(a)]> but was:<[]>org.junit.ComparisonFailure: expected:<[Stocks]> but was:<[]>org.junit.ComparisonFailure: expected:<[Corporation & S-Corp]> but was:<[Prior Certification]>org.junit.ComparisonFailure: expected:<[Citizenship & Ownership]> but was:<[]>org.junit.ComparisonFailure: expected:<[Net Worth]> but was:<[]>org.junit.ComparisonFailure: expected:<[Cash On Hand]> but was:<[]>org.junit.ComparisonFailure: expected:<[Cash On Hand]> but was:<[]>
+Error: 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

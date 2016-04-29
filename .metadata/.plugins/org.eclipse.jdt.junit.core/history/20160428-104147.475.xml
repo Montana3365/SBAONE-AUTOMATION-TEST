@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Am_I_Eligible_Scenario11_Staging" project="SBAONE-STAGING-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="all_staging_test_runs.Am_I_Eligible_Scenario11_Staging" time="26.286">
-    <testcase name="AM_I_Eligible_maintest" classname="all_staging_test_runs.Am_I_Eligible_Scenario11_Staging" time="26.286"/>
-  </testsuite>
-</testrun>

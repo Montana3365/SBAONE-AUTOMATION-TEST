@@ -63,9 +63,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 	  
 		@Before
 		public void setUp() throws Exception {		
-	    Login="jw_corp@mailinator.com";
-//		Login="jonathan.whitley@telesishq.com";
-	    Password="Map Effect Applied Furniture Help";
+	    Login="akanamontana@gmail.com";
+	    Password="Map Effect Applied Furniture 3365";
 	    comment="Test";
 	    FN="James";
 	    FN_2="Peter";

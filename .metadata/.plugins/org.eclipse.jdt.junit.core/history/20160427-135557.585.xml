@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="US752_IAM_Configure_SBA_Analyst_Roles_Regression" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="regression_for_2_1_4_release.US752_IAM_Configure_SBA_Analyst_Roles_Regression" time="44.504">
-    <testcase name="IAM_Configure_SBA_Analyst_Roles_MainTest" classname="regression_for_2_1_4_release.US752_IAM_Configure_SBA_Analyst_Roles_Regression" time="44.504"/>
-  </testsuite>
-</testrun>

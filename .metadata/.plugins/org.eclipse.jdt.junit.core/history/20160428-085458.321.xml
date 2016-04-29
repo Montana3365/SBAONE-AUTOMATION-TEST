@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Regression_Test_Iteration11_A_B_C" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="regression_for_2_1_4_release.Regression_Test_Iteration11_A_B_C" time="448.632">
-    <testcase name="Regression_Test_Iteration11_A_B_C_mymaintest" classname="regression_for_2_1_4_release.Regression_Test_Iteration11_A_B_C" time="448.632"/>
-  </testsuite>
-</testrun>

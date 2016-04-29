@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ant.AntLaunchConfigurationType">
+<booleanAttribute key="org.eclipse.ant.ui.DEFAULT_VM_INSTALL" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/SBAONE-PRODUCTION-TEST/build.xml"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.ant.ui.AntClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_91"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SBAONE-PRODUCTION-TEST"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.ant.ui.AntClasspathProvider"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_TARGETS" value="build,Am_I_Eligible_TC1_Scenario8_WOSB_Production_Success,US649_EDWOSB_Other_Real_State_Production,US788_Collapse_Navigation_Pane_Corp_EDWOSB (1),US788_Collapse_Navigation_Pane_LLC_WOSB (1),US855_Improve_Text_Work_In_Progress_From_All_pages (1),US861_SBA_Analyst_View_More_Info_About_Vendor,US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor (1),US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase (1),US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages (1),Am_I_Eligibles_Scenario_1_EDWOB_Success_Production,Iteration11_A_B_C_and12_Production,US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments (1),junitreport,"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc:/SBAONE-PRODUCTION-TEST/build.xml}"/>
+<stringAttribute key="process_factory_id" value="org.eclipse.ant.ui.remoteAntProcessFactory"/>
+</launchConfiguration>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Am_I_Eligible_Csenario2_Regression" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="regression_for_2_1_4_release.Am_I_Eligible_Csenario2_Regression" time="54.378">
-    <testcase name="AM_I_Eligible_maintest" classname="regression_for_2_1_4_release.Am_I_Eligible_Csenario2_Regression" time="54.378"/>
-  </testsuite>
-</testrun>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US788_Collapse_Navigation_Pane_LLC_WOSB (1)" project="SBAONE-PRODUCTION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="all_production_test.US788_Collapse_Navigation_Pane_LLC_WOSB" time="76.238">
+    <testcase name="testSmokeLogin" classname="all_production_test.US788_Collapse_Navigation_Pane_LLC_WOSB" time="76.238"/>
+  </testsuite>
+</testrun>

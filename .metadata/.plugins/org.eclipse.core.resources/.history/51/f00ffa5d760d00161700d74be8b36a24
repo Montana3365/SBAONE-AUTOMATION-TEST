@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="SBAONE-PRODUCTION-TEST">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../Users/Derec Nguni/Downloads/eclipse-dsl-mars-2-win32-x86_64/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="SBAONE-PRODUCTION-TEST.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="libs/junit-4.10.jar"/>
+        <pathelement location="libs/poi-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-examples-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-excelant-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-ooxml-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-ooxml-schemas-3.11-20141221.jar"/>
+        <pathelement location="libs/poi-scratchpad-3.11-20141221.jar"/>
+        <pathelement location="libs/selenium-java-2.53.0-srcs.jar"/>
+        <pathelement location="libs/selenium-java-2.53.0.jar"/>
+        <pathelement location="libs/selenium-server-standalone-2.53.0.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="production-scripts">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.xtend"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="production-scripts"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Am_I_Eligible_TC1_Scenario8_WOSB_Production_Success">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.Am_I_Eligible_TC1_Scenario8_WOSB_Production_Success" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US649_EDWOSB_Other_Real_State_Production">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US649_EDWOSB_Other_Real_State_Production" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US788_Collapse_Navigation_Pane_Corp_EDWOSB (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US788_Collapse_Navigation_Pane_Corp_EDWOSB" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US788_Collapse_Navigation_Pane_LLC_WOSB (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US788_Collapse_Navigation_Pane_LLC_WOSB" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US855_Improve_Text_Work_In_Progress_From_All_pages (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US855_Improve_Text_Work_In_Progress_From_All_pages" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US861_SBA_Analyst_View_More_Info_About_Vendor">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US861_SBA_Analyst_View_More_Info_About_Vendor" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.US888_Registration_Activate_Submit_Button_use_dialog_for_error_messages" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="Am_I_Eligibles_Scenario_1_EDWOB_Success_Production">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-PRODUCTION-TEST.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

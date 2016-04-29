@@ -25,8 +25,8 @@ public void US861_SBA_Analyst_View_More_Info_About_Vendor_Setup()throws Exceptio
 	myurl="https://certify.qa.sba-one.net/users/sign_in";
 	AAEmail="analyst1@mailinator.com";
 	AAPassW="password";
-	Duns="112286644";		
-	B_N="Entity 294";
+	Duns="111435873";		
+	B_N="Entity 294 Legal";
 	
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	

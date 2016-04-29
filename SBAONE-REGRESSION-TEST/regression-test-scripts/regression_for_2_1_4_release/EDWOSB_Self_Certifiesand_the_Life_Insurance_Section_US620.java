@@ -79,8 +79,8 @@ private StringBuffer verificationErrors = new StringBuffer();
 
 
 
-	    Email="fm.zobayear@telesishq.com";
-	    Password="Map Effect Applied Furniture Zobayear";
+	    Email="testemail1@mailinator.com";
+	    Password="Map Effect Applied Furniture Test";
 	    comment="Test";
 	    
 	    

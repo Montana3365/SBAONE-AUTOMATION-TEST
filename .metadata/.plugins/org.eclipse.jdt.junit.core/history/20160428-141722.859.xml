@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase (1)" project="SBAONE-PRODUCTION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="all_production_test.US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" time="60.654">
+    <testcase name="US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase_Maintest" classname="all_production_test.US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase" time="60.654"/>
+  </testsuite>
+</testrun>

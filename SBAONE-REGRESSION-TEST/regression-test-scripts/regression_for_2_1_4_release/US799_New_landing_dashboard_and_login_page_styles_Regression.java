@@ -23,7 +23,7 @@ public class US799_New_landing_dashboard_and_login_page_styles_Regression {
 @Before
 public void US799_New_landing_dashboard_and_login_page_styles_MainSetup()throws Exception{
 	myurl="https://certify.qa.sba-one.net/";
-	Email="deric.nguni@telesishq.com";
+	Email="deric.nguni@mailinator.com";
 	PassW="Map Effect Applied Furniture 3365";
 	WrongPassW="just doing testing";
 		
@@ -230,7 +230,7 @@ Thread.sleep(3000);
 	mydriver.quit();
 	}
 //Verify Email.
-	if(mydriver.getPageSource().contains("deric.nguni@telesishq.com")){
+	if(mydriver.getPageSource().contains("deric.nguni@mailinator.com")){
 	System.out.println("User email  has been verify and maches, Pass.");
 	}
 	else{

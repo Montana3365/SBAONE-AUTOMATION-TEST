@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Rgression_Test_for_Iteration_10_11" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="regression_for_2_1_4_release.Rgression_Test_for_Iteration_10_11" time="426.062">
-    <testcase name="US709_WOSB_Self_Certifies_EDWOSB_and_8_a_Users_reviews_Privacy_Statement_413_mymaintest" classname="regression_for_2_1_4_release.Rgression_Test_for_Iteration_10_11" time="426.062"/>
-  </testsuite>
-</testrun>

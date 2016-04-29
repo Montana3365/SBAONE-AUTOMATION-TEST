@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Edith_Password2_Regression_Test" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="regression_for_2_1_4_release.Edith_Password2_Regression_Test" time="58.992">
-    <testcase name="Edith_Password2_Regression_Test_Maintest" classname="regression_for_2_1_4_release.Edith_Password2_Regression_Test" time="58.992"/>
-  </testsuite>
-</testrun>

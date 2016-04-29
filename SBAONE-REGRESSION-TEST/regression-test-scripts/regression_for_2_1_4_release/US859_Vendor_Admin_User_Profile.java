@@ -23,7 +23,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			public void setUp() throws Exception {		
 		    Login="analyst5@mailinator.com";
 		    Password="password";
-		    duns_1="268493113";
+		    duns_1="111435873";
 		    
 		    //QA URL
 			baseUrl = "http://certify.qa.sba-one.net/";
@@ -134,7 +134,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		//Step 6 - Click on the Associated Vendor Administrator name if linked
 				System.out.println("Step 6 - Click on the Associated Vendor Administrator name if linked");
 				try {
-					assertEquals("J LLC whitley", driver.findElement(By.xpath(".//*[@id='ava-pop']")).getText());
+					assertEquals("Akana Montana", driver.findElement(By.xpath(".//*[@id='ava-pop']")).getText());
 					driver.findElement(By.xpath(".//*[@id='ava-pop']")).click();
 					System.out.println("  Associated Vendor Administrator name is displayed - Pass");
 				} catch (Error e) {

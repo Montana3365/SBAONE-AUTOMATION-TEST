@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor (1)" project="SBAONE-PRODUCTION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="all_production_test.US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor" time="23.142">
+    <testcase name="US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor_Maintest" classname="all_production_test.US862_SBA_Analyst_Cloning_Sends_Certification_Back_to_Vendor" time="23.142"/>
+  </testsuite>
+</testrun>

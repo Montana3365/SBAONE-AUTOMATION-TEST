@@ -37,7 +37,7 @@ public class Analyst_search_View_vendors_Record_Regression {
 	 Email="analyst1@mailinator.com";
 	 PassW="password";
 	 myurl="http://certify.qa.sba-one.net/users/sign_in";
-	 DUNs1="112286644";
+	 DUNs1="111435873";
 	 DUNs2="111419538";
 	 DUNs3="111435873";
 	 DUNs4="112286644";
@@ -47,7 +47,7 @@ public class Analyst_search_View_vendors_Record_Regression {
 	 DUNs8="119698675";
 	 DUNs9="123481741";
 	 DUNs10="124317426";
-	 BusN1="Entity 162 Legal";
+	 BusN1="Entity 294 Legal";
 	 
 	 
 	 

@@ -38,7 +38,7 @@ package all_staging_test_runs;
 		 Email="analyst1@mailinator.com";
 		 PassW="Don’t form a sentence";
 		 myurl="https://staging-certify.sba.gov/users/sign_in";
-		 DUNs1="137761556";
+		 DUNs1="111435873";
 		 DUNs2="111419538";
 		 DUNs3="111435873";
 		 DUNs4="112286644";
@@ -48,7 +48,7 @@ package all_staging_test_runs;
 		 DUNs8="119698675";
 		 DUNs9="123481741";
 		 DUNs10="124317426";
-		 BusN1="Entity 37 DBA Name";
+		 BusN1="Entity 294 Legal";
 		 
 		 
 		 
