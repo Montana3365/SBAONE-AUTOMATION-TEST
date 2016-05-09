@@ -54,27 +54,27 @@ package all_iterations_scripts;
 			
 	@Before
 	public void US621WOSB_Self_Certifies_EDWOSB_and_8_a_Completes_the_Cash_on_Hand_and_Income_Section_Negative_Scenario_setup()throws Exception{		
-   // Email="akanamontana@gmail.com";
-    //PassW="Map Effect Applied Furniture 3365";
-    comment="Test";
-    FN="Pual";
-    LN="Washington";
-    SSN="209-88-3376";
-    Address="8675 Dons ST";
-    City="Manassas";
-    Zip="36510";
-    Home_Phone="703-765-8982";
-    Business_Phone="704-765-9872";
-    Email2="applicant2@email.com";
-    Salary="100000";
-    Other_Income="70000";
-    Business_Equity="57000";
-    Equity_in_other_firm="20000";
-    State="Virginia";
-    Country="USA";
-    AS_Of_DATE="1/12/2016";
-    AS_of_DATE2="1-12-2016";
-	Invalid_Data="Smiling";
+		  //Email="akanamontana@gmail.com";
+		    //PassW="Map Effect Applied Furniture 3365";
+		    comment="Test";
+		    FN="Pual";
+		    LN="Washington";
+		    SSN="209-88-3376";
+		    Address="8675 Dons ST";
+		    City="Manassas";
+		    Zip="36510";
+		    Home_Phone="703-765-8982";
+		    Business_Phone="704-765-9872";
+		    Email2="applicant2@email.com";
+		    Salary="100000";
+		    Other_Income="70000";
+		    Business_Equity="57000";
+		    Equity_in_other_firm="20000";
+		    State="Virginia";
+		    Country="USA";
+		    AS_Of_DATE="1/12/2016";
+		    AS_of_DATE2="1-12-2016";
+			Invalid_Data="Smiling";
 
     
     
@@ -85,10 +85,10 @@ package all_iterations_scripts;
     
 	//myURL="http://certify.qa.sba-one.net/users/sign_in";
 	
-	File file = new File("C:\\Users\\Derec Nguni\\Desktop\\Jar-files\\IEDriverServer.exe");
+	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\IEDriverServer32b.exe");
 	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 	//mydriver=new InternetExplorerDriver();
-	File file1 = new File("C:\\Users\\Derec Nguni\\Desktop\\Jar-files\\chromedriver.exe");
+	File file1 = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\chromedriver.exe");
 	System.setProperty("webdriver.chrome.driver", file1.getAbsolutePath());
 	//mydriver=new ChromeDriver();
 	mydriver=new FirefoxDriver();
@@ -100,14 +100,14 @@ package all_iterations_scripts;
 	public void US621WOSB_Self_Certifies_EDWOSB_and_8_a_Completes_the_Cash_on_Hand_and_Income_Section_Negative_Scenario_mymaintest()throws Exception{
 //Locate the test date from the PC and verify that all data are valid.
 	Thread.sleep(4000);
-	String SheetPath="C:\\Users\\Derec Nguni\\Desktop\\Notes_Receivable_Test_Data..xls";		
+	String SheetPath="C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\Notes_Receivable_Test_Data..xls";		
 	String [][] myXLSheet=readXLSheet(SheetPath,"Test_Data");
 			
 	for (int k=1;k<myRows;k++){
 				
-		Cash_On_Hand=myXLSheet[k][0];
-		Saving_Account=myXLSheet[k][1];
-		Checking_Account=myXLSheet[k][2];
+		Cash_On_Hand=myXLSheet[k][6];
+		Saving_Account=myXLSheet[k][7];
+		Checking_Account=myXLSheet[k][8];
 		myURL=myXLSheet[k][18];
 		Email=myXLSheet[k][19];
 		PassW=myXLSheet[k][20];
@@ -148,8 +148,8 @@ package all_iterations_scripts;
 		}
 		Thread.sleep(7000);
 // Locate the Certifications on the dashboard, click on it and select EDWOSB to continue.
-	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[2]/a")).click();
-	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[2]/ul/li[2]/a")).click();
+	mydriver.findElement(By.linkText("Certifications")).click();
+	mydriver.findElement(By.linkText("EDWOSB")).click();
 	Thread.sleep(2000);
 //Locate the accept button at the bottom of the EDWOSB agreement and click on it to continue.
 	mydriver.findElement(By.xpath(".//*[@id='new_sba_application']/input[3]")).click();

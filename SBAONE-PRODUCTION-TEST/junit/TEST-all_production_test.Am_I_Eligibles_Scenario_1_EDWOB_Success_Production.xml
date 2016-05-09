@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="2" failures="0" hostname="Test-PC" name="all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production" skipped="0" tests="1" time="14.992" timestamp="2016-05-02T19:10:19">
+<testsuite errors="2" failures="0" hostname="Test-PC" name="all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production" skipped="0" tests="1" time="32.448" timestamp="2016-05-09T15:34:39">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
@@ -82,7 +82,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\junit-4.10.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\apache-ant-1.9.6\lib\ant-launcher.jar;C:\apache-ant-1.9.6\lib\ant.jar;C:\apache-ant-1.9.6\lib\ant-junit.jar;C:\apache-ant-1.9.6\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\junit\TEST-all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\junitvmwatcher2998380750373978443.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\junit6893579505897445010.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\junit\TEST-all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\junitvmwatcher9034441574569458925.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-PRODUCTION-TEST\junit6553834147213977114.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
     <property name="env.LOGONSERVER" value="\\TEST-PC" />
@@ -126,18 +126,18 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production" name="AM_I_Eligible_maintest" time="14.932">
-    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;Test-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;&#xa;Driver info: driver.version: RemoteWebDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 7f5871ef-75d8-464a-8cbe-3acb442e7c78" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+  <testcase classname="all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production" name="AM_I_Eligible_maintest" time="32.369">
+    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;Test-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;&#xa;Driver info: driver.version: RemoteWebDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: f1266648-4504-4163-b52b-fb5a4ae58686" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
 System info: host: &apos;Test-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
 Driver info: driver.version: RemoteWebDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7f5871ef-75d8-464a-8cbe-3acb442e7c78
+Session ID: f1266648-4504-4163-b52b-fb5a4ae58686
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.AM_I_Eligible_maintest(Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.java:62)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:969)
+	at all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.AM_I_Eligible_maintest(Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.java:49)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
 	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
@@ -166,17 +166,17 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
 </error>
-    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;Test-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;&#xa;Driver info: driver.version: RemoteWebDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: 7f5871ef-75d8-464a-8cbe-3acb442e7c78" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;&#xa;System info: host: &apos;Test-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;&#xa;Driver info: driver.version: RemoteWebDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: f1266648-4504-4163-b52b-fb5a4ae58686" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
 System info: host: &apos;Test-PC&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
 Driver info: driver.version: RemoteWebDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7f5871ef-75d8-464a-8cbe-3acb442e7c78
+Session ID: f1266648-4504-4163-b52b-fb5a4ae58686
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
 	at all_production_test.Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.AM_I_Eligible_Endtest(Am_I_Eligibles_Scenario_1_EDWOB_Success_Production.java:134)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
 	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
@@ -207,7 +207,6 @@ Caused by: java.net.ConnectException: Connection refused: connect
 </error>
   </testcase>
   <system-out><![CDATA[-Test script 1, Scenario 1: User should be eligible for the WOSB program 
-Text present, home page validated step 1 and 2 pass
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

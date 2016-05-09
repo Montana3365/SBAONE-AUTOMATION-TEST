@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Staging" project="SBAONE-STAGING-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="all_staging_test_runs.Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Staging" time="60.309">
-    <testcase name="EDWOSB_Self_Certify_Answer_Question_and_Attached_Documents_Maintest" classname="all_staging_test_runs.Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_Staging" time="60.309"/>
-  </testsuite>
-</testrun>

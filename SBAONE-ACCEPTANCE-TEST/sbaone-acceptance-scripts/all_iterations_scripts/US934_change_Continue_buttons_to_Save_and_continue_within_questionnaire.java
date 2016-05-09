@@ -119,7 +119,7 @@ package all_iterations_scripts;
 	//Locate the test date from the PC and verify that all data are valid.
 	Thread.sleep(4000);
 	
-	String SheetPath="C:\\Users\\Derec Nguni\\Desktop\\Notes_Receivable_Test_Data..xls";		
+	String SheetPath="C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\Notes_Receivable_Test_Data..xls";		
 	String [][] myXLSheet=readXLSheet(SheetPath,"Test_Data");
 			
 	for (int k=1;k<myRows;k++){	

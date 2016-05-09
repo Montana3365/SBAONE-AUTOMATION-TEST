@@ -18,7 +18,7 @@ public class Constants {
     public static final String Password="Map Effect Applied Furniture Help";
     
 //  Webdriver location
-    public static final String IE = "C:\\Users\\Jonathan Whitley\\Documents\\NEW-SBAONE-SCRIPTS\\SBAONE_AUTOMATION\\src\\lib\\IEDriverServer.exe";
+    public static final String IE = "C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\chromedriver.exe";
     public static final String Chrome = "C:\\Users\\Jonathan Whitley\\Documents\\NEW-SBAONE-SCRIPTS\\SBAONE_AUTOMATION\\src\\lib\\chromedriver.exe";
     
     

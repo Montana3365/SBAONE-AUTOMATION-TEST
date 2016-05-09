@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Analyst_search_View_vendors_Record_Staging" project="SBAONE-STAGING-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="all_staging_test_runs.Analyst_search_View_vendors_Record_Staging" time="41.399">
-    <testcase name="Analyst_search_View_vendors_Record_Regression_Maintest" classname="all_staging_test_runs.Analyst_search_View_vendors_Record_Staging" time="41.399"/>
-  </testsuite>
-</testrun>
