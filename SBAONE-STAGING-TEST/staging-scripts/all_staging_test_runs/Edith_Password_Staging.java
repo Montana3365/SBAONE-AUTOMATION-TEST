@@ -25,8 +25,8 @@ package all_staging_test_runs;
 			
 		@Before
 		public void Edith_Password_Regression_Test_Setup()throws Exception{
-			myurl="https://staging-certify.sba.gov/users/sign_in";
-			Email="staging@mailinator.com";
+			myurl="https://www.staging-certify.sba.gov/users/sign_in";
+			Email="stagingo.1@mailinator.com";
 			Current_PassW="Map Effect Applied Furniture 3365";
 			Current_PassW2="Map Effect Applied Furniture 3365";
 			Weak_PassW="1234";

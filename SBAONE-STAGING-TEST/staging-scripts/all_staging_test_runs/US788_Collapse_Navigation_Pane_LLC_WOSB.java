@@ -26,14 +26,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 	  
 		@Before
 		public void setUp() throws Exception {		
-		Login="akanamontana@mailinator.com";
-	    Password="Map Effect Applied Furniture Test";
+		Login="stagingLLC@mailinator.com";
+	    Password="Map Effect Applied Furniture 3365";
 	    comment="Test";
 
 
 		  
 		//QA URL
-		baseUrl = "https://staging-certify.sba.gov/";
+		baseUrl = "https://www.staging-certify.sba.gov/";
 		//DEMO URL
 		//baseUrl = "http://demo.qa.sba-one.net/";
 			   

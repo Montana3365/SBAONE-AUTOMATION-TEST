@@ -19,7 +19,7 @@ package all_staging_test_runs;
 				
 		@Before
 		public void Am_i_Eligible_setup()throws Exception{
-		myurl="https://staging-certify.sba.gov/";
+		myurl="https://www.staging-certify.sba.gov/";
 		valid_NAICS_Code="221310";
 		
 		

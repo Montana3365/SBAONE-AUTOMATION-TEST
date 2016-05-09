@@ -236,8 +236,8 @@ package regression_for_2_1_4_release;
 						System.out.println("BUSINESS PROFILE Pass");
 						
 			//Verify if there is an existing certification on the dashboard and delete to start a new certification.
-				if(driver.getPageSource().contains("Continue")){
-					driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr/td[4]/a[2]")).click();
+				if(driver.getPageSource().contains("Draft")){
+					driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
 					driver.switchTo().alert().accept();
 					Thread.sleep(4000);
 								        

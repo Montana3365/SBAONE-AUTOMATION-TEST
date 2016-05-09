@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US788_Collapse_Navigation_Pane_Corp_EDWOSB (2)" project="SBAONE-STAGING-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="all_staging_test_runs.US788_Collapse_Navigation_Pane_Corp_EDWOSB" time="175.946">
+    <testcase name="testSmokeLogin" classname="all_staging_test_runs.US788_Collapse_Navigation_Pane_Corp_EDWOSB" time="175.946"/>
+  </testsuite>
+</testrun>

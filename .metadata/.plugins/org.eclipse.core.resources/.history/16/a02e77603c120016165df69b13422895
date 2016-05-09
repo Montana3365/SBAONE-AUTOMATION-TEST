@@ -1,0 +1,69 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from Am_I_Eligible_Scenario5_Staging</title>
+</head>
+<body>
+<pre>-Test script 1, Scenario 5: WOSB Program Eligibility - Low Fidelity Failure Due to omition of the NAICS Code 
+Text present, home page validated step 1 and 2 pass
+Introduction page of SBA Women-Owned Small Business Requirement not validated
+-Question one
+Are you a US Citizen?
+Yes
+No
+Details
+A Citizen means a person born or naturalized in the United States. Resident ailens and holders of permanent visas are not considered to be citizens. 13 C.F.R. 127.102
+A Citizen means a person born or naturalized in the United States. Resident ailens and holders of permanent visas are not considered to be citizens. 13 C.F.R. 127.102
+-Question two
+Do you and/or other women own and control at least 51% of the business?
+Yes
+No
+Details
+To qualify for the WOSB Program, one or more women mustunconditionally and directly own and controlat least 51 percent of the business and be U.S. citizen(s).
+
+In general, the 51 percentownershipmay not be through another business entity or trusts (including stock ownership plan), executory agreements, or other arrangements that cause or potentially cause ownership benefits to go to another. See 13 C.F.R. 127.201 for additional information.
+
+Controlby one or more women means that both the long-term decision making and the day-to-day management and administration of the business operations are controlled by women. See 13 C.F.R. 127.202 for additional information.
+To qualify for the WOSB Program, one or more women mustunconditionally and directly own and controlat least 51 percent of the business and be U.S. citizen(s).
+
+In general, the 51 percentownershipmay not be through another business entity or trusts (including stock ownership plan), executory agreements, or other arrangements that cause or potentially cause ownership benefits to go to another. See 13 C.F.R. 127.201 for additional information.
+
+Controlby one or more women means that both the long-term decision making and the day-to-day management and administration of the business operations are controlled by women. See 13 C.F.R. 127.202 for additional information.
+-Question Three
+Enter the NAICS Code in which your business operates
+Details
+The federal government may restrict competition under the WOSB Program only in certain industries. 13 C.F.R. 127.500. SBA has designated those industries applicable to the WOSB Program by North American Industry Classification System (NAICS) code. If a contract is not assigned one of those designated NAICS codes, the contract cannot be set-aside under the WOSB Program.
+
+The most recent list of NAICS codes applicable to the WOSB Program can be found at SBA&rsquo;s website atSBA.gov/WOSB
+
+If you do not know the NAICS code(s) in which your business operates, please review the NAICS manual available athttp://www.census.gov
+The federal government may restrict competition under the WOSB Program only in certain industries. 13 C.F.R. 127.500. SBA has designated those industries applicable to the WOSB Program by North American Industry Classification System (NAICS) code. If a contract is not assigned one of those designated NAICS codes, the contract cannot be set-aside under the WOSB Program.
+
+The most recent list of NAICS codes applicable to the WOSB Program can be found at SBA&rsquo;s website atSBA.gov/WOSB
+
+If you do not know the NAICS code(s) in which your business operates, please review the NAICS manual available athttp://www.census.gov
+-Question Four
+Are you economically disadvantaged?
+Yes
+No
+Details
+To qualify as an EDWOSB, a business must be at least 51 percent owned by one or more womenwho are economically disadvantaged. The determination of whether a woman iseconomically disadvantagedrequires an evaluation of her total assets, her net worth, and her personal income for the past three years. To be considered an economically disadvantaged woman, the woman must meet all three of the thresholds described below:
+
+The woman's total assets must be valued at less than $6M. This calculation is based on the fair market value of all assets, including the woman&rsquo;s primary residence and the value of the business concern. However, the calculation excludes funds invested in an Individual Retirement Account or other official retirement account that are unavailable until retirement age without a significant penalty.
+
+The woman&rsquo;s net worth must be less than $750K. This calculation excludes the woman&rsquo;s ownership interest in the concern and her equity interest in her primary personal residence.
+
+The woman&rsquo;s personal income must be less than $350K. This calculation is based on the woman&rsquo;s annual adjusted gross income averaged over the last three years.
+To qualify as an EDWOSB, a business must be at least 51 percent owned by one or more womenwho are economically disadvantaged. The determination of whether a woman iseconomically disadvantagedrequires an evaluation of her total assets, her net worth, and her personal income for the past three years. To be considered an economically disadvantaged woman, the woman must meet all three of the thresholds described below:
+
+The woman's total assets must be valued at less than $6M. This calculation is based on the fair market value of all assets, including the woman&rsquo;s primary residence and the value of the business concern. However, the calculation excludes funds invested in an Individual Retirement Account or other official retirement account that are unavailable until retirement age without a significant penalty.
+
+The woman&rsquo;s net worth must be less than $750K. This calculation excludes the woman&rsquo;s ownership interest in the concern and her equity interest in her primary personal residence.
+
+The woman&rsquo;s personal income must be less than $350K. This calculation is based on the woman&rsquo;s annual adjusted gross income averaged over the last three years.
+Test Pass at this point
+Csenario 5  omited NAICS Code test validated
+Omited answer box alert activated, negative Csenario 5 pass
+</pre>
+</body>
+</html>

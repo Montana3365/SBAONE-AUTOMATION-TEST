@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US924_Remove_manage_documents_button_to_a_link" project="SBAONE-ACCEPTANCE-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="all_iterations_scripts.US924_Remove_manage_documents_button_to_a_link" time="22.845">
+    <testcase name="US709_WOSB_Self_Certifies_EDWOSB_and_8_a_Users_reviews_Privacy_Statement_413_mymaintest" classname="all_iterations_scripts.US924_Remove_manage_documents_button_to_a_link" time="22.845"/>
+  </testsuite>
+</testrun>

@@ -64,18 +64,21 @@ public class US402_EDWOSB_Self_Certifies_Questionnaire_Regression {
 			Thread.sleep(3000);
 			
 			//Verify if there is an existing certification on the dashboard and delete to start a new certification.
-				if(mydriver.getPageSource().contains("Continue")){
-					mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
-					mydriver.switchTo().alert().accept();
-			        try{
-			        	Thread.sleep(5000);
-			        }catch(InterruptedException e){
-				e.printStackTrace();}
-			        mydriver.navigate().refresh();
-				}
-				else{
-					System.out.println("There are(is) no certification in-progress on the dashboard, a new certification is beinng created");
-				}
+			if(mydriver.getPageSource().contains("Draft")){
+				mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+				mydriver.switchTo().alert().accept();
+				Thread.sleep(4000);
+				try{
+			    	Thread.sleep(5000);
+			    }catch(InterruptedException e){
+			e.printStackTrace();}
+			    mydriver.navigate().refresh();
+				
+			    
+			}
+			else{
+				System.out.println("There are(is) no certification in-progress on the dashboard, a new certification is beinng created");
+			}
 				Thread.sleep(7000);
 
 			// Locate the Certifications on the dashboard, click on it and select EDWOSB to continue.

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="US861_SBA_Analyst_View_More_Info_About_Vendor" project="SBAONE-PRODUCTION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="all_production_test.US861_SBA_Analyst_View_More_Info_About_Vendor" time="37.355">
-    <testcase name="US861_SBA_Analyst_View_More_Info_About_Vendor_MainTest" classname="all_production_test.US861_SBA_Analyst_View_More_Info_About_Vendor" time="37.355"/>
-  </testsuite>
-</testrun>

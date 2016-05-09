@@ -20,9 +20,9 @@ package all_staging_test_runs;
 			
 		@Before
 		public void EDWOSB_Self_Certifies_Questionnaire_Setup()throws Exception{
-			myurl="https://staging-certify.sba.gov/users/sign_in";
+			myurl="https://www.staging-certify.sba.gov/users/sign_in";
 			email="akanamontana@gmail.com";
-			PassW="Map Effect Applied Furniture 3365";
+			PassW="Map Effect Applied Funiture 3365";
 			comment="Test";
 			
 			File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");

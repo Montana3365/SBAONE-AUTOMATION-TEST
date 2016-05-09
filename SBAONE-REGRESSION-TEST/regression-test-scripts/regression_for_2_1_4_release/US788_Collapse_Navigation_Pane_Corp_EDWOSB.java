@@ -161,19 +161,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			
 	  //Verify if there is an existing certification on the dashboard and delete to start a new certification.
 			if(driver.getPageSource().contains("Draft")){
-				driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
-				System.out.println("Certification in-progress on the dashboard was deleted");
-				Thread.sleep(3000);
+				driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
 				driver.switchTo().alert().accept();
 				Thread.sleep(4000);
 				try{
-		        	Thread.sleep(5000);
-		        }catch(InterruptedException e){
+			    	Thread.sleep(5000);
+			    }catch(InterruptedException e){
 			e.printStackTrace();}
-		        driver.navigate().refresh();
+			   driver.navigate().refresh();
+				
+			    
 			}
 			else{
-				System.out.println("There are(is) no certification in-progress on the dashboard, a new certification is being created");
+				System.out.println("There are(is) no certification in-progress on the dashboard, a new certification is beinng created");
 			}
 		Thread.sleep(4000);
 		

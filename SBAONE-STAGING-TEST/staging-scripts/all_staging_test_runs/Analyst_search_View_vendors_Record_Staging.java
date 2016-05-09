@@ -35,10 +35,10 @@ package all_staging_test_runs;
 	 @Before
 	 public void Analyst_search_View_vendors_Record_Regression_Setup()throws Exception{
 		 mydriver=new FirefoxDriver();
-		 Email="analyst1@mailinator.com";
-		 PassW="Don’t form a sentence";
-		 myurl="https://staging-certify.sba.gov/users/sign_in";
-		 DUNs1="111435873";
+		 Email="StaginAnalyst@mailinator.com";
+		 PassW="Map Effect Applied Funiture 3365";
+		 myurl="https://www.staging-certify.sba.gov/users/sign_in";
+		 DUNs1="119698675";
 		 DUNs2="111419538";
 		 DUNs3="111435873";
 		 DUNs4="112286644";
@@ -48,7 +48,7 @@ package all_staging_test_runs;
 		 DUNs8="119698675";
 		 DUNs9="123481741";
 		 DUNs10="124317426";
-		 BusN1="Entity 294 Legal";
+		 BusN1="Entity 75 Legal";
 		 
 		 
 		 
@@ -95,7 +95,7 @@ package all_staging_test_runs;
 		mydriver.findElement(By.xpath(".//*[@id='view_business_profile']")).click();
 		Thread.sleep(3000);
 		if(mydriver.getPageSource().contains("Active")){
-			mydriver.findElement(By.xpath(".//*[@id='business_search']/div[4]/table/tbody/tr[2]/td[4]/a[1]")).click();
+			mydriver.findElement(By.xpath(".//*[@id='business_search']/div[4]/table/tbody/tr/td[4]/a[1]")).click();
 		}
 		else{
 			System.out.println("No completed certification on the business profile");

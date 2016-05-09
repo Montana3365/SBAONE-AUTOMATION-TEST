@@ -18,9 +18,9 @@ package all_staging_test_runs;
 			String password;
 		@Before
 		public void EDWOSB_Self_Certify_Answer_Question_and_Attached_Documents_Setup()throws Exception{
-			myurl="https://staging-certify.sba.gov/users/sign_in";
+			myurl="https://www.staging-certify.sba.gov/users/sign_in";
 			email="akanamontana@gmail.com";
-			password="Map Effect Applied Furniture 3365";
+			password="Map Effect Applied Funiture 3365";
 			
 			File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 			   System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	
@@ -86,7 +86,7 @@ package all_staging_test_runs;
 			Thread.sleep(2000);
 			//mydriver.findElement(By.xpath(".//*[@id='answers[5][attachment]']/div/div[1]/div/ul/li[2]/a")).click();
 			Thread.sleep(2000);
-			mydriver.findElement(By.xpath(".//*[@id='24']/td[1]/input")).click();
+			mydriver.findElement(By.xpath(".//*[@id='2']/td[1]/input")).click();
 			Thread.sleep(5000);
 			mydriver.findElement(By.xpath(".//*[@id='document_library_attach']")).click();
 

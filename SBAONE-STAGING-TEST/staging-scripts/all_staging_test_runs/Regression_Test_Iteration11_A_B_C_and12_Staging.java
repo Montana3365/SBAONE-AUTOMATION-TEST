@@ -76,7 +76,7 @@ package all_staging_test_runs;
 			
 	@Before
 	public void Regression_Test_Iteration11_A_B_C_setup()throws Exception{		
-	Email="akanamontana@gmail.com";
+	Email="stagingo.1@mailinator.com";
 	PassW="Map Effect Applied Furniture 3365";
 	comment="Test";
 	FN="Pual";
@@ -104,7 +104,7 @@ package all_staging_test_runs;
 	Percentage="70";
 
 	  
-	myURL="https://staging-certify.sba.gov/users/sign_in";
+	myURL="https://www.staging-certify.sba.gov/users/sign_in";
 
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	

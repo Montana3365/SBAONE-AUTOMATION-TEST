@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US923_View_more_under_Business_Profile_should_be_a_link" project="SBAONE-ACCEPTANCE-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="all_iterations_scripts.US923_View_more_under_Business_Profile_should_be_a_link" time="27.95">
+    <testcase name="US923_View_more_under_Business_Profile_should_be_a_link_mymaintest" classname="all_iterations_scripts.US923_View_more_under_Business_Profile_should_be_a_link" time="27.95"/>
+  </testsuite>
+</testrun>

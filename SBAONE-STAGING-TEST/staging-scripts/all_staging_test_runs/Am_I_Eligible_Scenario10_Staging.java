@@ -19,7 +19,7 @@ package all_staging_test_runs;
 			
 	@Before
 	public void Am_i_Eligible_setup()throws Exception{
-	myurl="https://staging-certify.sba.gov/";
+	myurl="https://www.staging-certify.sba.gov/";
 
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	
