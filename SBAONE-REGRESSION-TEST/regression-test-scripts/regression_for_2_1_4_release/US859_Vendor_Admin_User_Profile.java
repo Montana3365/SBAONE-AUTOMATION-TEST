@@ -21,9 +21,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		  
 			@Before
 			public void setUp() throws Exception {		
-		    Login="analyst5@mailinator.com";
+		    Login="analyst3@mailinator.com";
 		    Password="password";
-		    duns_1="111435873";
+		    duns_1="275276652";
 		    
 		    //QA URL
 			baseUrl = "http://certify.qa.sba-one.net/";
@@ -134,7 +134,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		//Step 6 - Click on the Associated Vendor Administrator name if linked
 				System.out.println("Step 6 - Click on the Associated Vendor Administrator name if linked");
 				try {
-					assertEquals("Akana Montana", driver.findElement(By.xpath(".//*[@id='ava-pop']")).getText());
+					assertEquals("QA User", driver.findElement(By.xpath(".//*[@id='ava-pop']")).getText());
 					driver.findElement(By.xpath(".//*[@id='ava-pop']")).click();
 					System.out.println("  Associated Vendor Administrator name is displayed - Pass");
 				} catch (Error e) {
@@ -152,7 +152,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 				} catch (Error e) {
 					verificationErrors.append(e.toString());
 					System.out.println("  Vendor Administrator Profile title is displayed - <<FAILED>>");
-					driver.quit();
+					//driver.quit();
 				}
 				
 		//Step 8 - Verify Last Name label   
@@ -225,8 +225,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		//Step 15 - Click the Logout link
 				System.out.println("Step 15 - Logout link clicked");
 				driver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[3]/a")).click();
-				Thread.sleep(2000);
-				driver.findElement(By.xpath(".//*[@id='labelid']")).click();
+				
 				Thread.sleep(3000);
 				System.out.println("END OF TEST");
 			}

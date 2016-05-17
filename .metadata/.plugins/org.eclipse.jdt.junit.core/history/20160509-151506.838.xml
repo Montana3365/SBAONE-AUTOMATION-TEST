@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="US621WOSB_Self_Certifies_EDWOSB_and_8_a_Completes_the_Cash_on_Hand_and_Income_Section_Negative_Scenario" project="SBAONE-ACCEPTANCE-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="all_iterations_scripts.US621WOSB_Self_Certifies_EDWOSB_and_8_a_Completes_the_Cash_on_Hand_and_Income_Section_Negative_Scenario" time="215.648">
-    <testcase name="US621WOSB_Self_Certifies_EDWOSB_and_8_a_Completes_the_Cash_on_Hand_and_Income_Section_Negative_Scenario_mymaintest" classname="all_iterations_scripts.US621WOSB_Self_Certifies_EDWOSB_and_8_a_Completes_the_Cash_on_Hand_and_Income_Section_Negative_Scenario" time="215.648"/>
-  </testsuite>
-</testrun>

@@ -116,6 +116,14 @@
             <classpath refid="SBAONE-STAGING-TEST.classpath"/>
         </junit>
     </target>
+    <target name="Am_I_Eligible_TC1_Scenario8_WOSB_Staging_Success">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="all_staging_test_runs.Am_I_Eligible_TC1_Scenario8_WOSB_Staging_Success" todir="${junit.output.dir}"/>
+            <classpath refid="SBAONE-STAGING-TEST.classpath"/>
+        </junit>
+    </target>
     <target name="Analyst_search_View_vendors_Record_Staging">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">

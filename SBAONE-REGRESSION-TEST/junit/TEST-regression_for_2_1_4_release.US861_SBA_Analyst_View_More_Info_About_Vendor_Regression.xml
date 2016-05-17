@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression" skipped="0" tests="1" time="73.574" timestamp="2016-04-29T14:00:42">
+<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression" skipped="0" tests="1" time="31.297" timestamp="2016-05-17T19:00:56">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
@@ -80,7 +80,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher6145798169208877691.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit4685856226570615982.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher8961544291453758344.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit474149187355682618.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.windir" value="C:\Windows" />
     <property name="env.LOGONSERVER" value="\\TEST-PC" />
@@ -121,35 +121,33 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression" name="US861_SBA_Analyst_View_More_Info_About_Vendor_MainTest" time="73.519" />
-  <system-out><![CDATA[The saerch results does not mache the business for the searched Duns number, Failed
-The saerch results does not mache the business for the searched Business name, Failed
+  <testcase classname="regression_for_2_1_4_release.US861_SBA_Analyst_View_More_Info_About_Vendor_Regression" name="US861_SBA_Analyst_View_More_Info_About_Vendor_MainTest" time="31.241" />
+  <system-out><![CDATA[Successful sign in alert message not present
+The saerch results maches the business for the searched Duns number, Pass.
+The saerch results maches the business for the searched Business name, Pass.
 The link to view more information about the company is present, Pass.
-View More
-Corporate URL: www.entity294.com
+Corporate URL:
 DODAC:
-Congressional District: 04
+Congressional District: 98
 EIN: 123456789
 DUNS+4:
 Primary NAICS:
-334419
 Other NAICS:
-334419Y~339991Y
 Alt Gov Business POC First Name: SAM
 Alt Gov Business POC Last Name: MERICA
 Alt Gov Business POC Title:
 Alt Gov Business POC Email: something@sam.gov
 Alt Gov Business POC Phone: 5555555555
-Entity Year Established: 19910809
-Entity Fiscal Year End Date: 1231
-SAM Expiration Date: 20150116
-State of Incorporation: MA
-Country of Incorporation: USA
-Average Number of Employees: 10
-Average Annual Revenue: 2000000
+Entity Year Established: 19980810
+Entity Fiscal Year End Date: 0930
+SAM Expiration Date: 20140625
+State of Incorporation:
+Country of Incorporation:
+Average Number of Employees:
+Average Annual Revenue:
 Net Worth:
 AGI:
-Last Edited: 2016-04-19 18:17:44 UTC
+Last Edited: 2016-05-12 16:05:55 UTC
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

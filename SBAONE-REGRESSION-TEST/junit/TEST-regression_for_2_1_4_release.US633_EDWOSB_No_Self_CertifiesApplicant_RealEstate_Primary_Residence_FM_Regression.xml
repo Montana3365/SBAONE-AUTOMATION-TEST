@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" skipped="0" tests="1" time="250.001" timestamp="2016-04-29T14:04:24">
+<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" skipped="0" tests="1" time="177.164" timestamp="2016-05-17T19:03:56">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
@@ -80,7 +80,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher1433587784125222364.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit5905863675088730150.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher5485563711495675303.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit3885843309492729667.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.windir" value="C:\Windows" />
     <property name="env.LOGONSERVER" value="\\TEST-PC" />
@@ -121,7 +121,7 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" name="EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_MainTest" time="249.946" />
+  <testcase classname="regression_for_2_1_4_release.US633_EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_FM_Regression" name="EDWOSB_No_Self_CertifiesApplicant_RealEstate_Primary_Residence_MainTest" time="177.103" />
   <system-out><![CDATA[BUSINESS PROFILE Pass
 The 8(a) question and select No and continue.
 The Third Party Certification question have been answered
@@ -230,43 +230,8 @@ What is the current balance of the lean(s)?
 Do you receive income from your primary residence (rent, etc.)? Select 'Yes'
 What is the income YOU receive from your primary residence (calculated annually)?
 User is being navigatd to the financial information(413), Real Estate - Other page, PASS
-The primary residence address is being saved, Pass
-What percentage of ownership do you have in your primary residence? is being saved, Pass
-What percentage of the mortgage are you responsible for in your primary residence? is being saved, Pass
-The current value of your primary residence is being saved, Pass
-The mortgage balance on your primary residence is being saved, Pass
-What is the current balance of the lien(s)? is being saved, Pass
-What is the income YOU receive from your primary residence (calculated annually)? is being saved, Pass
-Do you own your primary residence?
-Yes
-No
-Primary Residence Details
-What is the address of your primary residence?
- Is your primary residence jointly owned?
-Yes
-No
-What percentage of ownership do you have in your primary residence?
-  %
-What percentage of the mortgage are you responsible for in your primary residence?
-  %
-Is your name on the mortgage?
-Yes
-No
-What is the current value of your primary residence?
-$
-What is the mortgage balance on your primary residence?
-$
-Is there a lien, 2nd mortgage or Home Equity Line of Credit on your primary residence?
-Yes
-No
-What is the current balance of the lien(s)?
-$
-Do you receive income from your primary residence (rent, etc.)?
-Yes
-No
-What is the income YOU receive from your primary residence (calculated annually)?
-$
-Success: 
+Certification is not being save, Failed
+Success: org.junit.ComparisonFailure: expected:<B[USINESS PROFILE]> but was:<B[usiness Profile]>
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

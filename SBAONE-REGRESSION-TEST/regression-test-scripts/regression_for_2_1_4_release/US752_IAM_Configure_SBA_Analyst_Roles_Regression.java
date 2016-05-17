@@ -26,7 +26,7 @@ public void IAM_Configure_SBA_Analyst_Roles_Setup()throws Exception{
 	AAEmail="analyst1@mailinator.com";
 	AAPassW="password";
 	VEmail="akanamontana@gmail.com";		
-	VPassW="Map Effect Applied Furniture 3365";		
+	VPassW="password";		
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	
 	File file1 = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\chromedriver.exe");
@@ -58,7 +58,7 @@ public void IAM_Configure_SBA_Analyst_Roles_MainTest()throws Exception{
 		}
 	Thread.sleep(3000); 
 //Verify that the user that has been assign the analyst role log-in to the analyst dashboard.	
-	if(mydriver.getPageSource().contains("VENDOR SEARCH")){
+	if(mydriver.getPageSource().contains("Vendor Search")){
 		System.out.println("User Successful sign-in to the assigned analyst dashboard, Pass");
 		}
 	else{
@@ -95,7 +95,7 @@ public void IAM_Configure_SBA_Analyst_Roles_MainTest()throws Exception{
 		}
 	Thread.sleep(3000); 
 //Verify that the user that has been assign the analyst role log-in to the analyst dashboard.	
-	if(mydriver.getPageSource().contains("BUSINESS PROFILE")){
+	if(mydriver.getPageSource().contains("Business Profile")){
 	System.out.println("User Successful sign-in to the BUSINESS PROFILE dashboard, Pass");
 		}
 	else{
@@ -105,7 +105,7 @@ public void IAM_Configure_SBA_Analyst_Roles_MainTest()throws Exception{
 	Thread.sleep(3000); 	
 
 //locate the logout button and click on it.
-	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[5]/a")).click();
+	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[6]/a")).click();
 	Thread.sleep(3000);
 	if(mydriver.getPageSource().contains("Signed out successfully")){
 	mydriver.findElement(By.xpath(".//*[@id='labelid']")).click();

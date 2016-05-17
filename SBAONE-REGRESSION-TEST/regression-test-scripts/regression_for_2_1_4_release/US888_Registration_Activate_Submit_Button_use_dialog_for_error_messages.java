@@ -52,7 +52,7 @@ public void IAM_Custom_Registration_Vendor_Starts_New_Registration_US652_Maintes
 			mydrivers.navigate().to(myurl); 
 			mydrivers.manage().window().maximize();
 	//Step 2. Verify if User see the registration link on the landing page.
-			if(mydrivers.getPageSource().contains("CREATE ACCOUNT")){
+			if(mydrivers.getPageSource().contains("Create Account")){
 				System.out.println("User sees the link on the landing page for user to create an account, PASS");
 				mydrivers.findElement(By.xpath(".//*[@id='gov_login_box']/form[2]/button")).click();
 				

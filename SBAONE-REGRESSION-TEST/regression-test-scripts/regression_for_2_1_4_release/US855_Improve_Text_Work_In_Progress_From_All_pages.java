@@ -23,7 +23,7 @@ package regression_for_2_1_4_release;
 	public void US855_Improve_Text_Work_In_Progress_From_All_pages_Setup()throws Exception{
 		myurl="https://certify.qa.sba-one.net/";
 		Email="akanamontana@gmail.com";
-		PassW="Map Effect Applied Furniture 3365";
+		PassW="password";
 		Aemail="analyst1@mailinator.com";
 		ApassW="password";
 			

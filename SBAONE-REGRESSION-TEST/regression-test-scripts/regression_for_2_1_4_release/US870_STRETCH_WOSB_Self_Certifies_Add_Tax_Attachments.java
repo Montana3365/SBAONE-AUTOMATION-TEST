@@ -22,7 +22,7 @@ public class US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments {
 	public void US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments_Setup()throws Exception{
 		myurl="https://certify.qa.sba-one.net/users/sign_in";
 		email="akanamontana@gmail.com";
-		PassW="Map Effect Applied Furniture 3365";
+		PassW="password";
 		comment="Test";
 		
 		    File file = new File("C:\\Users\\Derec Nguni\\Documents\\QA_Automation\\QA_Acceptance\\lib\\IEDriverServer32b.exe");
@@ -65,7 +65,7 @@ public class US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments {
 			
 			//Verify if there is an existing certification on the dashboard and delete to start a new certification.
 			if(mydriver.getPageSource().contains("Draft")){
-				mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+				mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
 				mydriver.switchTo().alert().accept();
 				Thread.sleep(4000);
 				try{
@@ -154,9 +154,9 @@ public class US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments {
 						//Click on the upload button
 						mydriver.findElement(By.xpath(".//*[@id='answers[66][attachment]']/div/label/div")).click();
                          Thread.sleep(4000);
-							mydriver.findElement(By.xpath(".//*[@id='1']/td[1]/input")).click();
+							mydriver.findElement(By.name("selector")).click();
 							Thread.sleep(4000);
-							mydriver.findElement(By.xpath(".//*[@id='document_library_attach']")).click();
+							mydriver.findElement(By.id("document_library_attach")).click();
 
 
 					}

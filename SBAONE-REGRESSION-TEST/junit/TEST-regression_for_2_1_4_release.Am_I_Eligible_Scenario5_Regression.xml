@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression" skipped="0" tests="1" time="50.029" timestamp="2016-04-29T13:42:02">
+<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression" skipped="0" tests="1" time="51.064" timestamp="2016-05-17T18:33:16">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
@@ -80,7 +80,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher8306264806896628840.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit2488521106711853963.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher8795869819439474898.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit4349702211506837164.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.windir" value="C:\Windows" />
     <property name="env.LOGONSERVER" value="\\TEST-PC" />
@@ -121,7 +121,7 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression" name="AM_I_Eligible_maintest" time="49.978" />
+  <testcase classname="regression_for_2_1_4_release.Am_I_Eligible_Scenario5_Regression" name="AM_I_Eligible_maintest" time="51.006" />
   <system-out><![CDATA[-Test script 1, Scenario 5: WOSB Program Eligibility - Low Fidelity Failure Due to omition of the NAICS Code 
 Text present, home page validated step 1 and 2 pass
 Introduction page of SBA Women-Owned Small Business Requirement not validated

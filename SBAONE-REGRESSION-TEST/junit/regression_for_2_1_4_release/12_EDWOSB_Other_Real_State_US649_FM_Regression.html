@@ -219,7 +219,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\junit\\TEST-regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression.xml crashfile=C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\junitvmwatcher8760981813411957991.properties propsfile=C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\junit2393356031472504961.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\junit\\TEST-regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression.xml crashfile=C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\junitvmwatcher2807271423813863187.properties propsfile=C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\junit7549379702518875824.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -289,8 +289,8 @@
 <tr valign="top">
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
-<tr valign="top" class="Pass">
-<td><a title="Display all tests" href="12_EDWOSB_Other_Real_State_US649_FM_Regression.html">EDWOSB_Other_Real_State_US649_FM_Regression</a></td><td><a title="Display all tests" href="12_EDWOSB_Other_Real_State_US649_FM_Regression.html">1</a></td><td>0</td><td>0</td><td>0</td><td>223.412</td><td>2016-04-29T14:08:35</td><td>Test-PC</td>
+<tr valign="top" class="Error">
+<td><a title="Display all tests" href="12_EDWOSB_Other_Real_State_US649_FM_Regression.html">EDWOSB_Other_Real_State_US649_FM_Regression</a></td><td><a title="Display all tests" href="12_EDWOSB_Other_Real_State_US649_FM_Regression.html">1</a></td><td><a title="Display only errors" href="12_EDWOSB_Other_Real_State_US649_FM_Regression-errors.html">1</a></td><td>0</td><td>0</td><td>16.698</td><td>2016-05-17T19:06:54</td><td>Test-PC</td>
 </tr>
 </table>
 <h2>Tests</h2>
@@ -298,8 +298,17 @@
 <tr valign="top">
 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
-<tr valign="top" class="TableRowColor">
-<td><a name="EDWOSB_Real_State_Other_MainTest"></a>EDWOSB_Real_State_Other_MainTest</td><td>Success</td><td></td><td>223.355</td>
+<tr valign="top" class="Error">
+<td><a name="EDWOSB_Real_State_Other_MainTest"></a>EDWOSB_Real_State_Other_MainTest</td><td>Error</td><td>No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.66 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5033c9a4-087b-4167-8100-9387c9e18fd5<br>
+<br>
+<code>org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace informatiion)<br>Command duration or timeout: 3.66 seconds<br>Build info: version:: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'<br>System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'<br>Driver info: org.openqa.selenium.firefox.FirefoxDriver<br>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br>Session ID: 5033c9a4-087b-4167-8100-9387c9e18fd5<br>	at java.lang.reflect.Constructor.newInstance(Unknown Source)<br>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br>	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1049)<br>	at regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression.EDWOSSB_Real_State_Other_MainTest(EDWOSB_Other_Real_State_US649_FM_Regression.java:240)<br>
+</code></td><td>16.640</td>
 </tr>
 </table>
 <div class="Properties">

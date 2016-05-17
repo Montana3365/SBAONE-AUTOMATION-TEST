@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile" skipped="0" tests="1" time="39.864" timestamp="2016-04-29T13:58:25">
+<testsuite errors="0" failures="0" hostname="Test-PC" name="regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile" skipped="0" tests="1" time="38.685" timestamp="2016-05-17T18:58:39">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection" />
@@ -80,7 +80,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\bin;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-examples-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-excelant-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-ooxml-schemas-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\poi-scratchpad-3.11-20141221.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0-srcs.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-java-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\selenium-server-standalone-2.53.0.jar;C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\libs\junit-4.10.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Derec Nguni\Downloads\eclipse-dsl-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher9031063887660942185.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit7001158755891872693.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit\TEST-regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile.xml crashfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junitvmwatcher9046217032285189850.properties propsfile=C:\SBA-AUTOMATION-TEST\SBAONE-REGRESSION-TEST\junit7456703893518692115.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.windir" value="C:\Windows" />
     <property name="env.LOGONSERVER" value="\\TEST-PC" />
@@ -121,14 +121,15 @@
     <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile" name="testSmokeLogin" time="39.809" />
+  <testcase classname="regression_for_2_1_4_release.US859_Vendor_Admin_User_Profile" name="testSmokeLogin" time="38.632" />
   <system-out><![CDATA[Step 1 - URL: http://certify.qa.sba-one.net/
 Step 2 - Log in as an Analyst
-  Login ID: analyst5@mailinator.com
+  Login ID: analyst3@mailinator.com
   Password: password
   Click on Login Link and log in
+  Successful sign in alert message not present
 Step 3 - Verify if the Analyst Dashboard is displayed
-  Analyst Dashboard is displayed - Pass
+  Analyst Dashboard is displayed - <<FAILED>>
   Enter DUNS number to search on
   Click the Search button
 Search results are returned
@@ -151,15 +152,15 @@ Step 11 - Verify Role lable
 Step 12 - Verify Telephone Number lable
   Telephone Number label is displayed - Pass
 Step 13 - Print out the Vendor Admin data
-Last Name: whitley
-First Name: J LLC
-Email: jw_llc@mailinator.com
+Last Name: User
+First Name: QA
+Email: akanamontana@gmail.com
 Role: Vendor Administrator
-Phone No: 555-555-5555
+Phone No:
 Step 14 - Click on the Close button
 Step 15 - Logout link clicked
 END OF TEST
-Error: 
+Error: org.junit.ComparisonFailure: expected:<V[ENDOR SEARCH]> but was:<V[endor Search]>
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

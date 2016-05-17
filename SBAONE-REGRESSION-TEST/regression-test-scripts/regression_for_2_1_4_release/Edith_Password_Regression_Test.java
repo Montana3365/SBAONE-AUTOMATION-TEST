@@ -26,8 +26,8 @@ public class Edith_Password_Regression_Test {
 	@Before
 	public void Edith_Password_Regression_Test_Setup()throws Exception{
 		myurl="http://certify.qa.sba-one.net/users/sign_in";
-		Email="akanamontana@gmail.com";
-		Current_PassW="Map Effect Applied Furniture 3365";
+		Email="akanamontana@mailinator.com";
+		Current_PassW="password";
 		Current_PassW2="Map Effect Applied Furniture 3365";
 		Weak_PassW="1234";
 		New_PassW="Map Effect Applied Furniture 9883";

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US855_Improve_Text_Work_In_Progress_From_All_pages" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="regression_for_2_1_4_release.US855_Improve_Text_Work_In_Progress_From_All_pages" time="94.719">
+    <testcase name="US855_Improve_Text_Work_In_Progress_From_All_pages_MainTest" classname="regression_for_2_1_4_release.US855_Improve_Text_Work_In_Progress_From_All_pages" time="94.719"/>
+  </testsuite>
+</testrun>

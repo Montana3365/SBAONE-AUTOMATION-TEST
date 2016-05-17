@@ -37,7 +37,7 @@ public class Analyst_search_View_vendors_Record_Regression {
 	 Email="analyst1@mailinator.com";
 	 PassW="password";
 	 myurl="http://certify.qa.sba-one.net/users/sign_in";
-	 DUNs1="111435873";
+	 DUNs1="275276652";
 	 DUNs2="111419538";
 	 DUNs3="111435873";
 	 DUNs4="112286644";
@@ -47,7 +47,7 @@ public class Analyst_search_View_vendors_Record_Regression {
 	 DUNs8="119698675";
 	 DUNs9="123481741";
 	 DUNs10="124317426";
-	 BusN1="Entity 294 Legal";
+	 BusN1="Entity 37 Legal";
 	 
 	 
 	 
@@ -123,7 +123,7 @@ public class Analyst_search_View_vendors_Record_Regression {
 			mydriver.findElement(By.xpath(".//*[@id='view_business_profile']")).click();
 			Thread.sleep(3000);
 			if(mydriver.getPageSource().contains("Active")){
-				mydriver.findElement(By.xpath(".//*[@id='business_search']/div[4]/table/tbody/tr/td[4]/a[1]")).click();
+				mydriver.findElement(By.xpath(".//*[@id='business_search']/div[4]/table/tbody/tr[2]/td[4]/a")).click();
 			}
 			else{
 				System.out.println("No completed certification on the business profile");

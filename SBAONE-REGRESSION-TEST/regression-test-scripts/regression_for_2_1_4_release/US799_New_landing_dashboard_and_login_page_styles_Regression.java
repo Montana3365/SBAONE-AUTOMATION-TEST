@@ -23,8 +23,8 @@ public class US799_New_landing_dashboard_and_login_page_styles_Regression {
 @Before
 public void US799_New_landing_dashboard_and_login_page_styles_MainSetup()throws Exception{
 	myurl="https://certify.qa.sba-one.net/";
-	Email="deric.nguni@mailinator.com";
-	PassW="Map Effect Applied Furniture 3365";
+	Email="akanamontana@mailinator.com";
+	PassW="password";
 	WrongPassW="just doing testing";
 		
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
@@ -42,7 +42,7 @@ public void US799_New_landing_dashboard_and_login_page_styles_MainTest()throws E
 	mydriver.navigate().to(myurl);
 	mydriver.manage().window().maximize();
 //Verify that the log-in and a create account link are present and visible on the dashboard.
-	if(mydriver.getPageSource().contains("LOGIN")){
+	if(mydriver.getPageSource().contains("Login")){
 		System.out.println("The login link is present and visible on the landing page, Pass");
 		mydriver.findElement(By.xpath(".//*[@id='gov_login_box']/form[1]/button")).click();
 		Thread.sleep(4000);
@@ -214,7 +214,7 @@ Thread.sleep(3000);
 	mydriver.findElement(By.xpath(".//*[@id='js-navigation-menu2']/li[2]/a")).click();
 	Thread.sleep(3000);
 //Verify that user is being directed to the right profile.
-	if(mydriver.getPageSource().contains("Akana")){
+	if(mydriver.getPageSource().contains("QA")){
 	System.out.println("User first name has been verify and maches, Pass.");
 	}
 	else{
@@ -222,7 +222,7 @@ Thread.sleep(3000);
 	mydriver.quit();
 	}
 //Verify last name.
-	if(mydriver.getPageSource().contains("Montana")){
+	if(mydriver.getPageSource().contains("User")){
 	System.out.println("User Last name has been verify and maches, Pass.");
 	}
 	else{
@@ -230,7 +230,7 @@ Thread.sleep(3000);
 	mydriver.quit();
 	}
 //Verify Email.
-	if(mydriver.getPageSource().contains("deric.nguni@mailinator.com")){
+	if(mydriver.getPageSource().contains("akanamontana@mailinator.com")){
 	System.out.println("User email  has been verify and maches, Pass.");
 	}
 	else{

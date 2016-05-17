@@ -224,8 +224,7 @@ package regression_for_2_1_4_release;
 				driver.findElement(By.xpath(".//*[@id='user_password']")).sendKeys(Password);
 				 //Click the Sign-in button
 				driver.findElement(By.xpath(".//*[@id='business_signin']")).click();
-				//Click the alert massage "Close"
-				driver.findElement(By.xpath(".//*[@id='labelid']")).click();
+				
 				//Verify that the login was successful and the Dashboard is displayed
 				Thread.sleep(3000);
 				try {
@@ -237,7 +236,7 @@ package regression_for_2_1_4_release;
 						
 			//Verify if there is an existing certification on the dashboard and delete to start a new certification.
 				if(driver.getPageSource().contains("Draft")){
-					driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+					driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
 					driver.switchTo().alert().accept();
 					Thread.sleep(4000);
 								        

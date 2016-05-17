@@ -25,8 +25,8 @@ public void US861_SBA_Analyst_View_More_Info_About_Vendor_Setup()throws Exceptio
 	myurl="https://certify.qa.sba-one.net/users/sign_in";
 	AAEmail="analyst1@mailinator.com";
 	AAPassW="password";
-	Duns="111435873";		
-	B_N="Entity 294 Legal";
+	Duns="275276652";		
+	B_N="Entity 37 Legal";
 	
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 	System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	
@@ -65,13 +65,13 @@ public void US861_SBA_Analyst_View_More_Info_About_Vendor_MainTest()throws Excep
 //Clear the search duns number in the search box and very that that the duns number is thesame on the search result.
 	mydriver.findElement(By.xpath(".//*[@id='query']")).clear();
 	Thread.sleep(4000);
-    if(mydriver.getPageSource().contains("137761556")){
+    if(mydriver.getPageSource().contains("275276652")){
 		System.out.println("The saerch results maches the business for the searched Duns number, Pass.");
 
     }
     else{
 		System.out.println("The saerch results does not mache the business for the searched Duns number, Failed");
-
+mydriver.quit();
     }
 Thread.sleep(4000);
 //Locate the search for vendor search box and enter a valid business name.
@@ -81,19 +81,20 @@ Thread.sleep(4000);
 //Clear the search duns number in the search box and very that that the duns number is thesame on the search result.
 	mydriver.findElement(By.xpath(".//*[@id='query']")).clear();
 	Thread.sleep(4000);
-	if(mydriver.getPageSource().contains("Entity 414")){
+	if(mydriver.getPageSource().contains("Entity 37")){
 		System.out.println("The saerch results maches the business for the searched Business name, Pass.");
 
 		 }
 	else{
 	System.out.println("The saerch results does not mache the business for the searched Business name, Failed");
+	mydriver.quit();
 
 		}
 //Loacte the view profile button and click on it.
 	mydriver.findElement(By.xpath(".//*[@id='view_business_profile']")).click();
 	Thread.sleep(3000);
 //Locate the view more button and click on it to view all the company information.
-	if(mydriver.getPageSource().contains("View More")){
+	if(mydriver.getPageSource().contains("Entity 37 Legal Business Name")){
 		System.out.println("The link to view more information about the company is present, Pass.");
 		mydriver.findElement(By.xpath(".//*[@id='business_search']/div[3]/div/a")).click();
 

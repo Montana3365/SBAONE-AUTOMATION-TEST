@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="regression_for_2_1_4_release.US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments" time="88.798">
+    <testcase name="US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments_Maintest" classname="regression_for_2_1_4_release.US870_STRETCH_WOSB_Self_Certifies_Add_Tax_Attachments" time="88.798"/>
+  </testsuite>
+</testrun>

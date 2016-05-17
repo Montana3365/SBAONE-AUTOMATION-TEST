@@ -27,7 +27,7 @@ String pass;
 	public void Login_Regression_Test_setup_setup()throws Exception{
 	
 	Myemail="akanamontana@gmail.com";
-	pass="Map Effect Applied Furniture 3365";
+	pass="password";
 	myURL="https://certify.qa.sba-one.net/users/sign_in";
 	
 	File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");

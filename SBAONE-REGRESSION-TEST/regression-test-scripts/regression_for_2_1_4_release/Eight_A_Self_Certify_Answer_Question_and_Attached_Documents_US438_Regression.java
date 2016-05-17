@@ -20,7 +20,7 @@ public class Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_R
 	public void EDWOSB_Self_Certify_Answer_Question_and_Attached_Documents_Setup()throws Exception{
 		myurl="https://certify.qa.sba-one.net/users/sign_in";
 		email="akanamontana@gmail.com";
-		password="Map Effect Applied Furniture 3365";
+		password="password";
 		
 		File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 		   System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	
@@ -38,10 +38,10 @@ public class Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_R
 				mydriver.manage().window().maximize();
 				   Thread.sleep(2000);
 				    if(mydriver.getPageSource().contains("SIGN IN TO CERTIFY.SBA.GOV")){
-				    	System.out.println("Text Present, Login page validated. Test Pass");
+				    	System.out.println("Successful login alert message pop up activated.");
 				    	}		
 				    	else{
-				    	System.out.println("Text Not Present, Login page Not validated. Test Failed");
+				    	System.out.println("Successful login alert message pop up not activated");
 				    	}	
 				//Step 4. Enter a valid email.
 				    mydriver.findElement(By.xpath(".//*[@id='user_email']")).sendKeys(email);
@@ -60,7 +60,7 @@ public class Eight_A_Self_Certify_Answer_Question_and_Attached_Documents_US438_R
 					
 					//Verify if there is an existing certification on the dashboard and delete to start a new certification.
 						if(mydriver.getPageSource().contains("Draft")){
-							mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+							mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr/td[4]/a[2]")).click();
 							mydriver.switchTo().alert().accept();
 					        try{
 					        	Thread.sleep(5000);

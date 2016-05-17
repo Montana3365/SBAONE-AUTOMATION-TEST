@@ -77,8 +77,8 @@ int myRows,myCols;
 		
 @Before
 public void US709_WOSB_Self_Certifies_EDWOSB_and_8_a_Users_reviews_Privacy_Statement_413_setup()throws Exception{		
-Email="akanamontana@gmail.com";
-PassW="Map Effect Applied Furniture 3365";
+//Email="akanamontana@gmail.com";
+//PassW="Map Effect Applied Furniture 3365";
 comment="Test";
 FN="Pual";
 FN2="Danzel";
@@ -105,7 +105,7 @@ P_Resident="7645 Weems rd";
 Percentage="70";
 
   
-myURL="http://certify.qa.sba-one.net/users/sign_in";
+//myURL="http://certify.qa.sba-one.net/users/sign_in";
 
 File file = new File("C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\IEDriverServer32b.exe");
 System.setProperty("webdriver.ie.driver", file.getAbsolutePath());	
@@ -119,9 +119,9 @@ mydriver=new FirefoxDriver();
 @Test
 public void US709_WOSB_Self_Certifies_EDWOSB_and_8_a_Users_reviews_Privacy_Statement_413_mymaintest()throws Exception{
 //Locate the test date from the PC and verify that all data are valid.
-Thread.sleep(4000);
-String SheetPath="C:\\Users\\Derec Nguni\\Desktop\\Notes_Receivable_Test_Data..xls";		
-String [][] myXLSheet=readXLSheet(SheetPath,"Test_Data");
+	Thread.sleep(4000);
+	String SheetPath="C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\Notes_Receivable_Test_Data..xls";		
+	String [][] myXLSheet=readXLSheet(SheetPath,"Test_Data");
 		
 for (int k=1;k<myRows;k++){	
                           				
@@ -144,6 +144,9 @@ for (int k=1;k<myRows;k++){
 	
 	Whom_Payable=myXLSheet[k][16];
 	When_Due=myXLSheet[k][17];
+	myURL=myXLSheet[k][18];
+	Email=myXLSheet[k][19];
+	PassW=myXLSheet[k][20];
 //Step 00. Open Firefox Browser and navigate to valid url.
 mydriver.navigate().to(myURL);
 Thread.sleep(3000);
@@ -166,7 +169,7 @@ Thread.sleep(3000);
 
 //Verify if there is an existing certification on the dashboard and delete to start a new certification.
 if(mydriver.getPageSource().contains("Draft")){
-	mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+	mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
 	mydriver.switchTo().alert().accept();
 	Thread.sleep(4000);
 	try{

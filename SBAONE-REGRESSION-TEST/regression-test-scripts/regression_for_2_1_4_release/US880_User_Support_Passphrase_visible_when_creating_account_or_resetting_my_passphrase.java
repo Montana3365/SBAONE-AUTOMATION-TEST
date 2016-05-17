@@ -27,7 +27,7 @@ public class US880_User_Support_Passphrase_visible_when_creating_account_or_rese
 public void US880_User_Support_Passphrase_visible_when_creating_account_or_resetting_my_passphrase_Setup()throws Exception{
 	myurl="https://certify.qa.sba-one.net/";
 	Email="akanamontana@gmail.com";
-	PassW="Map Effect Applied Furniture 3365";
+	PassW="password";
 	Passphrass="The Quick Brown Fox Jumps Over The Lazy Dog";
 	
 	
@@ -197,8 +197,8 @@ mydriver.findElement(By.xpath(".//*[@id='edit_user']/div[2]/p/a")).click();
 
 		}
 		else{
-			System.out.println("Signed out was not successfull, Failed");
-			mydriver.quit();
+			System.out.println("Signed out successfull pop up alert not activated, Failed");
+			
 		} 
   //Click on the login button.
 		mydriver.findElement(By.xpath(".//*[@id='gov_login_box']/form[1]/button")).click();

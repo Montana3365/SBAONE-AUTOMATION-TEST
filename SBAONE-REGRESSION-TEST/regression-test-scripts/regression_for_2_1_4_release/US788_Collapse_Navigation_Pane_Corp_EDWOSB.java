@@ -64,7 +64,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		@Before
 		public void setUp() throws Exception {		
 	    Login="akanamontana@gmail.com";
-	    Password="Map Effect Applied Furniture 3365";
+	    Password="password";
 	    comment="Test";
 	    FN="James";
 	    FN_2="Peter";
@@ -161,7 +161,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			
 	  //Verify if there is an existing certification on the dashboard and delete to start a new certification.
 			if(driver.getPageSource().contains("Draft")){
-				driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+				driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
 				driver.switchTo().alert().accept();
 				Thread.sleep(4000);
 				try{
@@ -809,9 +809,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		//Step 51 - Click the Logout link
 				System.out.println("Step 51 - Logout link clicked");	
 				driver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[6]/a")).click();
-				Thread.sleep(3000);
-				driver.findElement(By.xpath(".//*[@id='labelid']")).click();	
-				Thread.sleep(3000);
+				
 				System.out.println("END OF TEST");
 		}
 	    

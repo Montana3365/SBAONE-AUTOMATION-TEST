@@ -206,7 +206,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			driver.findElement(By.xpath(".//*[@id='answers[79][value]']/label[1]")).click();
 			driver.findElement(By.xpath(".//*[@id='answers[19][attachment]']/div/label/div")).click();
 			Thread.sleep(4000);
-			driver.findElement(By.xpath("(//input[@name='selector'])[7]")).click();
+			driver.findElement(By.xpath("(//input[@name='selector'])[9]")).click();
 
 			Thread.sleep(3000);
 			driver.findElement(By.xpath("(//button[@id='document_library_attach'])[2]")).click();

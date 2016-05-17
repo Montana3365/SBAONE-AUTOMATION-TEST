@@ -21,7 +21,7 @@ public void Edith_Password2_Regression_Test_Setup()throws Exception{
 	mydriver=new FirefoxDriver();
 	myurl="http://certify.qa.sba-one.net/users/sign_in";
 	Email="akana.gov.net@gmail.com";
-	Old_PassW="Map Effect Applied Funiture 3365";
+	Old_PassW="Map Effect Applied Furniture 3365";
 	
 	New_PassW="Derico$336557135393803365";
 	New_PassW2="Derico$336557135393803365";
@@ -151,7 +151,7 @@ else{
 	  	Thread.sleep(4000);
 	  	
 	//Verify that user logged in successfully with the new updated password.
-	  	if(mydriver.getPageSource().contains("111435873")){
+	  	if(mydriver.getPageSource().contains("144754156")){
 	  		System.out.println("Password Update is Successful");
 	  		//mydriver.close();
 	  	}

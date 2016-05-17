@@ -86,7 +86,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 			
 	  //Verify if there is an existing certification on the dashboard and delete to start a new certification.
 			if(driver.getPageSource().contains("Draft")){
-				driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a")).click();
+				driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
 				driver.switchTo().alert().accept();
 				Thread.sleep(4000);
 				try{
@@ -162,7 +162,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		
 		//Step 3 - Click the Accept button on the Review page
 			System.out.println("Step 3 - Click the Accept button on the Review page");
-			driver.findElement(By.xpath(".//*[@id='wosb']/input[4]")).click();
+			driver.findElement(By.xpath(".//*[@id='review']")).click();
 			
 						
 		//Step 4 - Click the Dashboard link
@@ -174,7 +174,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		//Step 5 - Return to the certification
 				System.out.println("Step 5 - Return to the certification"); 
 				if(driver.getPageSource().contains("Draft")){
-					driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[1]")).click();
+					driver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr/td[4]/a[1]")).click();
 					System.out.println("Certification in-progress on the dashboard was clicked");
 					Thread.sleep(4000);
 				}
@@ -187,7 +187,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 				} catch (Error e) {
 					verificationErrors.append(e.toString());
 					System.out.println("  User is NOT being navigated to the Correct section, (Signature) - <<FAILED>>");
-					driver.quit();
+					//driver.quit();
 				}
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -344,8 +344,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		//Step 24 - Click the Logout link
 				System.out.println("Step 24 - Logout link clicked");	
 				driver.findElement(By.xpath(".//*[@id='js-navigation-menu']/li[6]/a")).click();
-				Thread.sleep(3000);
-				driver.findElement(By.xpath(".//*[@id='labelid']")).click();	
+					
 				Thread.sleep(3000);
 				System.out.println("END OF TEST");
 		}

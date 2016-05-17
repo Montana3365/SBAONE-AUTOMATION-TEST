@@ -161,7 +161,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		
 		//Step 3 - Click the Accept button on the Review page
 			System.out.println("Step 3 - Click the Accept button on the Review page");
-			driver.findElement(By.xpath(".//*[@id='wosb']/input[4]")).click();
+			driver.findElement(By.xpath(".//*[@id='wosb']/div/input")).click();
 			
 						
 		//Step 4 - Click the Dashboard link
