@@ -119,7 +119,7 @@ mydriver=new FirefoxDriver();
 public void Regression_Test_Iteration11_A_B_C_mymaintest()throws Exception{
 //Locate the test date from the PC and verify that all data are valid.
 	Thread.sleep(4000);
-	String SheetPath="C:\\SBA-AUTOMATION-TEST\\SBAONE-ACCEPTANCE-TEST\\libs\\Notes_Receivable_Test_Data..xls";		
+	String SheetPath="C:\\SBA-AUTOMATION-TEST\\SBAONE-REGRESSION-TEST\\libs\\Notes_Receivable_Test_Data..xls";		
 	String [][] myXLSheet=readXLSheet(SheetPath,"Test_Data");
 		
 for (int k=1;k<myRows;k++){	
@@ -390,7 +390,7 @@ mydriver.findElement(By.xpath(".//*[@id='DTE_Field_cost']")).sendKeys(Balance);
 mydriver.findElement(By.xpath(".//*[@id='DTE_Field_market_value']")).sendKeys(Balance);
 mydriver.findElement(By.xpath(".//*[@id='DTE_Field_interest_dividends']")).sendKeys(Balance);
 mydriver.findElement(By.xpath("html/body/div[3]/div/div/div/div[1]/div[4]/div[3]/button")).click();
-mydriver.findElement(By.xpath(".//*[@id='edwosb']/input[4]")).click();
+mydriver.findElement(By.name("commit")).click();
 
 
 
@@ -790,7 +790,7 @@ Thread.sleep(5000);
 		mydriver.findElement(By.xpath(".//*[@id='DTE_Field_investment_company']")).sendKeys(Balance);
 		mydriver.findElement(By.xpath("html/body/div[3]/div/div/div/div[1]/div[4]/div[3]/button")).click();
   Thread.sleep(5000);
-		mydriver.findElement(By.xpath(".//*[@id='edwosb']/input[4]")).click();
+		mydriver.findElement(By.name("commit")).click();
 
 		//Select Yes for the two question on Life Insurance.
  //Locate and select yes for question Do you have life insurance policy that has a cash surrender value.
@@ -858,7 +858,7 @@ Thread.sleep(5000);
 		mydriver.findElement(By.id("answers_50_2_11_value")).sendKeys(Percentage);		
 
 	    Thread.sleep(3000);	
-		mydriver.findElement(By.xpath(".//*[@id='edwosb']/input[4]")).click();
+		mydriver.findElement(By.name("commit")).click();
 		   	
 	    Thread.sleep(3000);	
 	//Beginning Test For Personal Property.
@@ -948,7 +948,7 @@ Thread.sleep(5000);
 			mydriver.findElement(By.xpath(".//*[@id='answers[57][value]']/label[2]")).click();
 			mydriver.findElement(By.xpath(".//*[@id='answers[58][value]']/label[1]")).click();
 			mydriver.findElement(By.xpath(".//*[@id='answers_59_value']")).sendKeys(Percentage);	
-			mydriver.findElement(By.xpath(".//*[@id='edwosb']/input[4]")).click();		
+			mydriver.findElement(By.name("commit")).click();		
 		}
 		else{
 			System.out.println("-User is NOT being navigated to the 'Notes Payable' section on the form 413, Pass");

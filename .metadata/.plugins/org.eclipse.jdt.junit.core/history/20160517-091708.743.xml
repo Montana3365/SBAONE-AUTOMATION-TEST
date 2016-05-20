@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620" project="SBAONE-REGRESSION-TEST" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="regression_for_2_1_4_release.EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620" time="186.964">
-    <testcase name="EDWOSB_Self_Certifiesand_the_Life_Insurance_MainTest" classname="regression_for_2_1_4_release.EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620" time="186.964"/>
-  </testsuite>
-</testrun>
