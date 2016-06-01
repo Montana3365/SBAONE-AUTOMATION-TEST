@@ -170,6 +170,7 @@ Thread.sleep(3000);
 //Verify if there is an existing certification on the dashboard and delete to start a new certification.
 if(mydriver.getPageSource().contains("Draft")){
 	mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
+	Thread.sleep(5000);
 	mydriver.switchTo().alert().accept();
 	Thread.sleep(4000);
 	try{

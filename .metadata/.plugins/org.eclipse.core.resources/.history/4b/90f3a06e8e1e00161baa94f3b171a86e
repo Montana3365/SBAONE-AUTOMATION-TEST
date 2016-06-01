@@ -1,0 +1,48 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Errors</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Errors</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="regression_for_2_1_4_release/10_Analyst_search_View_vendors_Record_Regression.html">Analyst_search_View_vendors_Record_Regression</a></td><td><a name="Analyst_search_View_vendors_Record_Regression_Maintest"></a><a href="regression_for_2_1_4_release/10_Analyst_search_View_vendors_Record_Regression.html#Analyst_search_View_vendors_Record_Regression_Maintest">Analyst_search_View_vendors_Record_Regression_Maintest</a></td><td>Error</td><td>Unable to locate element: {"method":"xpath","selector":".//*[@id='view_business_profile']"}
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 229c0a6b-057b-4b9a-9a23-60e1fb3bfceb
+*** Element info: {Using=xpath, value=.//*[@id='view_business_profile']}<br>
+<br>
+<code>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","sselector":".//*[@id='view_business_profile']"}<br>Command duration or timeout: 36 milliseconds<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'<br>System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd64', os.version:: '6.1', java.version: '1.8.0_91'<br>Driver info: org.openqa.selenium.firefox.FirefoxDriver<br>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br>Session ID: 229c0a6b-057b-4b9a-9a23-60e1fb3bfceb<br>*** Element info: {Using=xpath, value=.//*[@id='view_business_profile']}<br>	at java.lang.reflect.Constructor.neewInstance(Unknown Source)<br>	at org.openqa.sellenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br>	at org.openqa.selenium.remote.RemoteWebDriver.findElement(ReemoteWebDriver.java:363)<br>	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDDriver.java:500)<br>	at org.openqa.selenium.Byy$ByXPath.findElement(By.java:361)<br>	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br>	at regression_for_2_1_4_release.Analyst_search_View_vendors_Record_Regression.Analyst_search_View_vendors_Record_Regression_Maintest(Analyst_search_View_vendors_Record_Regression.java:94)<br>Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='vieew_business_profile']"}<br>For documentationn on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>BBuild info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'<br>System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd664', os.version: '6.1', java.version: '1.8.0_91'<br>Driver info: ddriver.version: unknown<br>	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous7021090409714657252webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:100770)<br>	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous7021090409714657252webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymous7021090409714657252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661))<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/DERECN~1/AppData/Local/Temp/aanonymous7021090409714657252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/DERECN~1/AppData/Local/Temp/anonymouss7021090409714657252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)<br>
+</code></td><td>17.529</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="regression_for_2_1_4_release/12_EDWOSB_Other_Real_State_US649_FM_Regression.html">EDWOSB_Other_Real_State_US649_FM_Regression</a></td><td><a name="EDWOSB_Real_State_Other_MainTest"></a><a href="regression_for_2_1_4_release/12_EDWOSB_Other_Real_State_US649_FM_Regression.html#EDWOSB_Real_State_Other_MainTest">EDWOSB_Real_State_Other_MainTest</a></td><td>Error</td><td>No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.66 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5033c9a4-087b-4167-8100-9387c9e18fd5<br>
+<br>
+<code>org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace informatiion)<br>Command duration or timeout: 3.66 seconds<br>Build info: version:: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'<br>System info: host: 'Test-PC', ip: '10.1.10.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'<br>Driver info: org.openqa.selenium.firefox.FirefoxDriver<br>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br>Session ID: 5033c9a4-087b-4167-8100-9387c9e18fd5<br>	at java.lang.reflect.Constructor.newInstance(Unknown Source)<br>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)<br>	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1049)<br>	at regression_for_2_1_4_release.EDWOSB_Other_Real_State_US649_FM_Regression.EDWOSSB_Real_State_Other_MainTest(EDWOSB_Other_Real_State_US649_FM_Regression.java:240)<br>
+</code></td><td>16.640</td>
+</tr>
+</table>
+</body>
+</html>

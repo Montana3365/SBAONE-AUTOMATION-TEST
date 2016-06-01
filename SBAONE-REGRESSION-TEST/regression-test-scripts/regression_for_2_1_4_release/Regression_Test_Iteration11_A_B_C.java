@@ -171,7 +171,7 @@ Thread.sleep(3000);
 if(mydriver.getPageSource().contains("Draft")){
 	mydriver.findElement(By.xpath(".//*[@id='dashboard-index']/div[4]/div[2]/table/tbody/tr[1]/td[4]/a[2]")).click();
 	mydriver.switchTo().alert().accept();
-	Thread.sleep(4000);
+	Thread.sleep(7000);
 	try{
     	Thread.sleep(5000);
     }catch(InterruptedException e){
@@ -649,8 +649,9 @@ System.out.println(Element1.getText());
 Thread.sleep(4000);
 //Go back to form413 and add another person and verify if user1 is prompted back  to complete the financial statements for the second person upon arriving on the privacy statement section.
 mydriver.findElement(By.xpath(".//*[@id='form413']")).click();
+Thread.sleep(6000);
 //Locate the add new person button and click on it.
-mydriver.findElement(By.xpath(".//*[@id='answers_99_value_new_button']")).click();
+mydriver.findElement(By.id("answers_99_value_new_button")).click();
 
 Thread.sleep(2000);
 //Verify that the section to Create new record is been seen by user and enter new record to ADD.
@@ -771,7 +772,7 @@ mydriver.findElement(By.xpath(".//*[@id='edwosb']/input[4]")).click();
 	//Locate the 'Create' button at the Right bottom of the Create new entry page and click on it .
 			mydriver.findElement(By.xpath("html/body/div[3]/div/div/div/div[1]/div[4]/div[3]/button")).click();
 	//locate the 'CONTINUE' button at the right bottom of the page and click on it to save
-			mydriver.findElement(By.xpath(".//*[@id='edwosb']/input[4]")).click();
+			mydriver.findElement(By.name("commit")).click();
 			
 		//Select Yes for the two question on Retirement Accounts.
 		mydriver.findElement(By.xpath(".//*[@id='answers[41][value]']/label[1]")).click();

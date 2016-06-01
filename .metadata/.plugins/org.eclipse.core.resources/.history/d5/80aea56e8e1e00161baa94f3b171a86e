@@ -1,0 +1,24 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from Analyst_search_View_vendors_Record_Regression</title>
+</head>
+<body>
+<pre>Successful sign in alert message not present
+Entity 294 Legal Business Name
+This business has not been associated to a user
+DBA:
+Gov Business Contact:SAM MERICA
+DUNS:111435873
+Email:something@sam.gov
+Phone:5555555555
+Business Type:
+
+Address:
+Entity 294 Address Line 1
+TAUNTON, MA 02780
+
+Certifications:
+</pre>
+</body>
+</html>

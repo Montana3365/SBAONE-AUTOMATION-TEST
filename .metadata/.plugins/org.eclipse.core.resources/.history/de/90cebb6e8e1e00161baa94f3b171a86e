@@ -1,0 +1,56 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from US788_Collapse_Navigation_Pane_LLC_WOSB</title>
+</head>
+<body>
+<pre>Step 1 - URL: http://certify.qa.sba-one.net/
+  Login ID: testemail1@mailinator.com
+  Password: Map Effect Applied Furniture Test
+  Click on Login Link and log in
+  Successful sign in alert message not present
+  8(a) question have been answered
+  Third Party questions have been answered
+  Business questions have been answered
+  Operations questions have been answered
+Step 3 - Click the Accept button on the Review page
+Step 4 - Returned to the Dashboard
+Step 5 - Return to the certification
+Certification in-progress on the dashboard was clicked
+Step 6 - Verify that user is navigated to the Correct section(Other Sources Of Income)
+  User is NOT being navigated to the Correct section, (Signature) - &lt;&lt;FAILED&gt;&gt;
+
+--Expand sections--
+Step 7 - Click to expand the Prior Certification section
+Step 8 - Verify that the Prior Certification section was expanded
+  Prior Certification section expanded - Pass
+Step 9 - Click to expand the Third Party Certification section
+Step 10 - Verify that the Third Party Certification section was expanded
+  Third Party section expanded - Pass
+Step 11 - Click to expand the Business section
+Step 12 - Verify that the Business section was expanded
+  Business section expanded - Pass
+Step 13 - Click to expand the Operations section
+Step 14 - Verify that the Operations section was expanded
+  Operations section expanded - Pass
+
+--Collapse sections--
+Step 15 - Click to collapse the Third Party Certification section
+Step 16 - Verify that the Third Party Certification section was collapsed
+  Third Party section collapsed - Pass
+Step 17 - Click to collapse the Prior Certification section
+Step 18 - Verify that the Prior Certification section was collapsed
+  Prior Certification section collapsed - Pass
+Step 19 - Click to collapse the Business section
+Step 20 - Verify that the Business section was collapsed
+  Business section collapsed - Pass
+Step 21 - Click to collapse the Operations section
+Step 22 - Verify that the Operations section was collapsed
+  Operations section collapsed - Pass
+Step 23 - Returned to the Dashboard
+Step 24 - Logout link clicked
+END OF TEST
+Error: org.junit.ComparisonFailure: expected:&lt;[Signature]&gt; but was:&lt;[Review]&gt;org.junit.ComparisonFailure: expected:&lt;[Third Party]&gt; but was:&lt;[]&gt;org.junit.ComparisonFailure: expected:&lt;[8 (a)]&gt; but was:&lt;[]&gt;org.junit.ComparisonFailure: expected:&lt;[LLC]&gt; but was:&lt;[]&gt;org.junit.ComparisonFailure: expected:&lt;[Citizenship &amp; Ownership]&gt; but was:&lt;[]&gt;
+</pre>
+</body>
+</html>

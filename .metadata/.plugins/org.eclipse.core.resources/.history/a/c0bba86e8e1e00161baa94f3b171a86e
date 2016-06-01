@@ -1,0 +1,11 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from EDWOSB_Other_Real_State_US649_FM_Regression</title>
+</head>
+<body>
+<pre>BUSINESS PROFILE Pass
+Success: org.junit.ComparisonFailure: expected:&lt;B[USINESS PROFILE]&gt; but was:&lt;B[usiness Profile]&gt;
+</pre>
+</body>
+</html>

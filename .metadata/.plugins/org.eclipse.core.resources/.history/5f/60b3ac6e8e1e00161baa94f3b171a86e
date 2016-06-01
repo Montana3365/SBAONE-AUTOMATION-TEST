@@ -1,0 +1,21 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from Edith_Password_Regression_Test</title>
+</head>
+<body>
+<pre>First attempt to log-in with current password was successful, PASS
+Successful sign in alert message not present
+Edith Password link is present and active, Pass
+User is being navigated to the change password page, PASS
+Passphrase strength - Strong
+1 error prohibited this user from being saved:
+Password confirmation doesn't match Password
+Close
+Usee sees alert messages requesting user to confirm password or password doesen't match, PASS
+Passphrase strength - Weak
+User sees alert message saying the password user entered is weak, PASS
+User did Not see alert message saying the password user entered is Better, Failed
+</pre>
+</body>
+</html>

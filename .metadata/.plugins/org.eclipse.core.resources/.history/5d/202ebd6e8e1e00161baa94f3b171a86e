@@ -1,0 +1,33 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from US799_New_landing_dashboard_and_login_page_styles_Regression</title>
+</head>
+<body>
+<pre>The login link is present and visible on the landing page, Pass
+The login link is present But Not Active on the landing page, Failed
+The CREATE ACCOUNT link is Not present and visible on the landing page, Failed
+The HOME Button is present and visible on the landing page, Pass
+The AM I ELIGIBLE link is present and visible on the landing page, Pass
+The AM I ELIGIBLE link is present and Active on the landing page, Pass
+The New Features notes is present and visible on the landing page, Pass
+The COMING SOON notes is present and visible on the landing page, Pass
+The  Welcome to certify.SBA.gov text is present and visible on the landing page, Pass
+The HELP link is present and visible on the landing page, Pass
+Before switching, title is =SBA-ONE Certification
+After switching title is =2016 WOSB Quick Start Guide April 1 2016.pptx - WOSB_Quick_Start_Guide.pdf
+Back to manin_window SBA-ONE Certification
+The Find Out Button for the AM I ELIGIBLE Program is present and visible on the landing page, Pass
+The Find Out Button for the AM I ELIGIBLE Program is present and Active on the landing page, Pass
+Successful sign in alert message not present
+User first name has been verify and maches, Pass.
+User Last name has been verify and maches, Pass.
+User email  has been verify and maches, Pass.
+Invalid Error message upon successful logged-out is not activated, failed.
+Error message(You have one more attempt before your account is locked) is being activated upon the second time user entered a wrong password, Pass.
+Error message(Your account has been locked, please wait 24 hours) is being activated upon the 3rd time user entered a wrong password, Pass.
+Error message(Your account has been locked, please wait 24 hours) is being activated upon the second time user entered a wrong password, Pass.
+Error message(Your account has been locked, please wait 24 hours) is being activated upon the 4th time user entered Valid credentials, Pass.
+</pre>
+</body>
+</html>

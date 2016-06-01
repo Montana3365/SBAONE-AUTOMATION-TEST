@@ -1,0 +1,48 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from US859_Vendor_Admin_User_Profile</title>
+</head>
+<body>
+<pre>Step 1 - URL: http://certify.qa.sba-one.net/
+Step 2 - Log in as an Analyst
+  Login ID: analyst3@mailinator.com
+  Password: password
+  Click on Login Link and log in
+  Successful sign in alert message not present
+Step 3 - Verify if the Analyst Dashboard is displayed
+  Analyst Dashboard is displayed - &lt;&lt;FAILED&gt;&gt;
+  Enter DUNS number to search on
+  Click the Search button
+Search results are returned
+  Search Results are displayed - Pass
+Step 4 - View Profile
+Step 5 - Verify the Associated Vendor Administrator header
+  Associated Vendor Administrator label is displayed - Pass
+Step 6 - Click on the Associated Vendor Administrator name if linked
+  Associated Vendor Administrator name is displayed - Pass
+Step 7 - Verify Vendor Administrator Profile pop up window
+  Vendor Administrator Profile title is displayed - Pass
+Step 8 - Verify Last Name lable
+  Last Name label is displayed - Pass
+Step 9 - Verify First Name lable
+  First Name label is displayed - Pass
+Step 10 - Verify Email Address lable
+  Email Address label is displayed - Pass
+Step 11 - Verify Role lable
+  Role label is displayed - Pass
+Step 12 - Verify Telephone Number lable
+  Telephone Number label is displayed - Pass
+Step 13 - Print out the Vendor Admin data
+Last Name: User
+First Name: QA
+Email: akanamontana@gmail.com
+Role: Vendor Administrator
+Phone No:
+Step 14 - Click on the Close button
+Step 15 - Logout link clicked
+END OF TEST
+Error: org.junit.ComparisonFailure: expected:&lt;V[ENDOR SEARCH]&gt; but was:&lt;V[endor Search]&gt;
+</pre>
+</body>
+</html>

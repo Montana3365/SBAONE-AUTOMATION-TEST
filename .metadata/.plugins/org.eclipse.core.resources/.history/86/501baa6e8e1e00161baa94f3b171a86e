@@ -1,0 +1,111 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from EDWOSB_Self_Certifiesand_the_Life_Insurance_Section_US620</title>
+</head>
+<body>
+<pre>BUSINESS PROFILE Pass
+The LLC questions have been answered
+The Citizenship &amp; Ownership questions have been answered
+The Businesses &amp; Trusts questions have been answered
+The Operations &amp; Management questions have been answered
+The Expertise &amp; Employment questions have been answered
+The Highest Officer &amp; Control  questions have been answered
+The SBA Exam &amp; Daily Operations questions have been answered
+The Net Worth questions have been answered
+The Adjusted Gross Income questions have been answered
+The Fair Market Value questions have been answered
+The Assets questions have been answered
+User is navigated to the Correct section, (Financial Data) - Pass
+The personal information for 1st Person
+The personal information Before Save:
+The page to Create and Add new Record is Present, PASS
+ First_Name = Sabra
+ Last_Name = Mabella 
+SSN= 495-54-3209
+Address_P= 3432 Berugard ST
+State= Virginia
+Country= USA
+City= Alexandria
+ Zip= 22311
+ Home_Phone= 703-622-5854
+Business_Phone= 703-765-4969
+ Email_P = Sabra.Mabella@gmail.com
+User is navigated to the Correct section, (Cash On Hand) - Pass
+Cash On Hand Data Before Save:
+AS_of_DATE= 02/01/2016
+Cash_On_Hand= 10000
+Saving_Account= 50000
+Checking_Account= 30000
+User is navigated to the Correct section, (Other Sources Of Income) - Pass
+Other Sources Of Income for Data:
+ Salary= 60000
+ Other_Income= 3000
+Business_Equity= 5700
+Equity_in_other_firm= 20000
+Test Start here Notes Receivable Section
+The Notes Receivable page coming, pass
+
+Verify Retirement Accounts page
+User is navigated to the Correct section, (Retirement Accounts) - Pass
+Do you have a Roth IRA? Select 'No'
+Do you have any other retirement accounts? Select 'No'
+
+		Launch Here US620 Life Insurance page
+User is navigated to the Correct section, (Life Insurance) - Pass
+The Create new entry coming, pass
+The life insurance policy Data Save:
+	
+Add 1st  Insurance Company Information
+Cash_Surrender_Value = 200
+	
+Add 2nd  Insurance Company Information
+Cash_Surrender_Value = 200
+	
+Add 3rd  Insurance Company Information
+Cash_Surrender_Value = 200
+Do you have any loans against a life insurance policy? Yes
+Loans_Against_Life_Insurance= 1500
+User is being navigatd to the financial information(413), Stocks &amp; Bonds page, PASS
+
+Verify The 1st  Insurance Company Information is being saved
+The Name of Insurance Companyis being saved, Pass
+The Cash Surrender Value is being saved, Pass
+The Face Amount is being saved, Pass
+The Beneficiaries is being saved, Pass
+
+Verify The 2nd  Insurance Company Information is being saved
+The Name of Insurance Companyis being saved, Pass
+The Cash Surrender Value is being saved, Pass
+The Face Amount is being saved, Pass
+The Beneficiaries is being saved, Pass
+
+Verify The 3rd  Insurance Company Information is being saved
+The Name of Insurance Companyis being saved, Pass
+The Cash Surrender Value is being saved, Pass
+The Face Amount is being saved, Pass
+The Beneficiaries is being saved, Pass
+What is the current balance of any loans against life insurance? 1500 is being saved, Pass
+Do you have a life insurance policy that has a Cash Surrender Value?
+Yes
+No
+
+NOTE: The Cash Surrender Value is the total received if a life insurance policy is cancelled. This does not apply to term life insurance policies.
+
+NewEditDelete
+Name of Insurance Company Cash Surrender Value (if applicable) Face Amount Beneficiaries
+Total: $600.00 $1500.00
+Blue Cross Blue Shield $200.00 $500.00 Micale
+GEICO $200.00 $500.00 Donald
+Kaiser $200.00 $500.00 Jone
+
+
+Do you have any loans against a life insurance policy?
+Yes
+No
+What is the current balance of any loans against life insurance?
+$
+Error: org.junit.ComparisonFailure: expected:&lt;B[USINESS PROFILE]&gt; but was:&lt;B[usiness Profile]&gt;
+</pre>
+</body>
+</html>
